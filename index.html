@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bibliothèque IA LITE FREE - 400 cmds - Hadji Consulting</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{
+  --bg-0:#07070b; --bg-1:#0e0e15; --bg-2:#15151f; --bg-3:#1d1d2a;
+  --border:rgba(255,255,255,0.07); --border-hover:rgba(255,255,255,0.16);
+  --text-1:#ffffff; --text-2:#a1a1b8; --text-3:#66667e;
+  --accent:#7c5cff; --accent-2:#22d3ee; --accent-3:#f472b6; --accent-4:#34d399;
+  --success:#34d399; --warning:#fbbf24;
+  --comm:#f59e0b; --chatgpt:#10a37f; --claude:#d97757; --gemini:#4285f4;
+  --radius-m:14px; --radius-l:20px; --radius-xl:26px;
+  --shadow-s:0 4px 20px rgba(0,0,0,0.35); --ease:cubic-bezier(0.22,1,0.36,1);
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif; background:var(--bg-0); color:var(--text-1); min-height:100vh; overflow-x:hidden; -webkit-font-smoothing:antialiased}
+body::before{content:''; position:fixed; inset:0; pointer-events:none; z-index:0; background:radial-gradient(ellipse 70% 50% at 10% 0%, rgba(124,92,255,0.14), transparent 60%),radial-gradient(ellipse 60% 50% at 90% 100%, rgba(34,211,238,0.10), transparent 60%),radial-gradient(ellipse 50% 40% at 50% 50%, rgba(244,114,182,0.06), transparent 70%)}
+header{position:sticky; top:0; z-index:100; backdrop-filter:blur(24px) saturate(1.2); background:rgba(7,7,11,0.86); border-bottom:1px solid var(--border)}
+.header-top{max-width:1680px; margin:0 auto; padding:14px 24px; display:flex; align-items:center; gap:16px; flex-wrap:wrap}
+.logo{display:flex; align-items:center; gap:10px; font-size:19px; font-weight:900; letter-spacing:-0.03em; white-space:nowrap}
+.logo-mark{width:38px; height:38px; border-radius:11px; background:linear-gradient(135deg, var(--accent), var(--accent-2)); display:flex; align-items:center; justify-content:center; font-size:18px; box-shadow:0 0 28px rgba(124,92,255,0.55)}
+.logo span.grad{background:linear-gradient(135deg, #fff 15%, var(--accent) 55%, var(--accent-2)); -webkit-background-clip:text; -webkit-text-fill-color:transparent}
+.search-wrap{flex:1; min-width:240px; max-width:480px; position:relative}
+.search-wrap input{width:100%; padding:11px 16px 11px 42px; background:var(--bg-2); border:1px solid var(--border); border-radius:11px; color:var(--text-1); font-size:13.5px; font-family:inherit; transition:all 0.25s var(--ease)}
+.search-wrap input:focus{outline:none; border-color:var(--accent); box-shadow:0 0 0 4px rgba(124,92,255,0.14)}
+.search-wrap::before{content:'⌕'; position:absolute; left:14px; top:50%; transform:translateY(-50%); font-size:17px; opacity:0.5}
+.search-hint{position:absolute; right:10px; top:50%; transform:translateY(-50%); font-size:10px; color:var(--text-3); background:var(--bg-3); padding:2px 6px; border-radius:5px; border:1px solid var(--border)}
+.header-actions{display:flex; gap:6px; align-items:center; flex-wrap:wrap}
+.btn{padding:9px 12px; border-radius:9px; font-size:12.5px; font-weight:600; font-family:inherit; cursor:pointer; border:1px solid var(--border); background:var(--bg-2); color:var(--text-2); transition:all 0.2s var(--ease); display:flex; align-items:center; gap:5px; white-space:nowrap}
+.btn:hover{background:var(--bg-3); color:var(--text-1); border-color:var(--border-hover); transform:translateY(-1px)}
+.btn.primary{background:linear-gradient(135deg, var(--accent), #6d4aff); color:#fff; border-color:transparent; box-shadow:0 4px 18px rgba(124,92,255,0.32)}
+.btn.active{background:var(--accent); color:#fff; border-color:var(--accent)}
+.stats{display:flex; gap:12px; font-size:11.5px; color:var(--text-3); align-items:center; margin-left:auto}
+.stats b{color:var(--accent-2); font-weight:700}
+@media(max-width:1100px){.stats{display:none}}
+.meta-bar{max-width:1680px; margin:0 auto; padding:0 24px 12px; display:flex; gap:7px; flex-wrap:wrap; align-items:center; border-bottom:1px solid var(--border)}
+.meta-tab{padding:7px 13px; border-radius:18px; font-size:12px; font-weight:700; border:1px solid var(--border); background:var(--bg-1); color:var(--text-2); cursor:pointer; transition:all 0.2s var(--ease); display:flex; align-items:center; gap:5px}
+.meta-tab:hover{border-color:var(--border-hover); color:var(--text-1); transform:translateY(-1px)}
+.meta-tab.active{color:#fff; border-color:transparent; box-shadow:0 4px 16px rgba(0,0,0,0.3)}
+.meta-tab[data-meta="ALL"].active{background:var(--bg-3)}
+.meta-tab[data-meta="COMM"].active{background:linear-gradient(135deg, #f59e0b, #d97706)}
+.meta-tab[data-meta="CHATGPT"].active{background:linear-gradient(135deg, #10a37f, #0d8a6a)}
+.meta-tab[data-meta="CLAUDE"].active{background:linear-gradient(135deg, #d97757, #b85c3e)}
+.meta-tab[data-meta="GEMINI_FLOW"].active{background:linear-gradient(135deg, #4285f4, #2a64c8)}
+.meta-tab[data-meta="VIDEO_PUR"].active{background:linear-gradient(135deg, #ef4444, #dc2626)}
+.meta-tab[data-meta="IMAGE_FLOW"].active{background:linear-gradient(135deg, #8b5cf6, #6d28d9)}
+.meta-tab[data-meta="FAV"].active{background:linear-gradient(135deg, #f472b6, #db2777)}
+.meta-tab[data-meta="FAMILIES"].active{background:linear-gradient(135deg, #7c5cff, #22d3ee)}
+.meta-count{font-size:10px; background:rgba(0,0,0,0.25); padding:1px 6px; border-radius:10px; font-weight:800}
+.layout{max-width:1680px; margin:0 auto; padding:20px 24px; display:grid; grid-template-columns:300px 1fr; gap:24px; position:relative; z-index:1}
+@media(max-width:1024px){.layout{grid-template-columns:1fr; padding:14px; gap:14px}.header-top{padding:12px 14px}.meta-bar{padding:0 14px 10px}}
+.sidebar{position:sticky; top:124px; align-self:start; max-height:calc(100vh - 140px); overflow-y:auto; scrollbar-width:thin}
+.sidebar::-webkit-scrollbar{width:5px} .sidebar::-webkit-scrollbar-thumb{background:var(--border-hover); border-radius:3px}
+.nav-title{font-size:10.5px; font-weight:800; text-transform:uppercase; letter-spacing:0.11em; color:var(--text-3); padding:0 6px 10px; display:flex; justify-content:space-between; align-items:center}
+.toggle{display:flex; align-items:center; gap:5px; font-size:10.5px; text-transform:none; letter-spacing:0; font-weight:600; color:var(--text-2); cursor:pointer}
+.toggle input{accent-color:var(--accent)}
+.nav-btn{display:flex; flex-direction:column; gap:5px; width:100%; padding:10px 12px; margin-bottom:5px; background:transparent; border:1px solid transparent; border-radius:11px; color:var(--text-2); font-family:inherit; font-size:12.5px; font-weight:500; cursor:pointer; text-align:left; transition:all 0.18s var(--ease)}
+.nav-btn:hover{background:var(--bg-2); color:var(--text-1); border-color:var(--border); transform:translateX(2px)}
+.nav-btn.active{background:linear-gradient(135deg, rgba(124,92,255,0.18), rgba(34,211,238,0.08)); color:var(--text-1); border-color:rgba(124,92,255,0.35); box-shadow:0 4px 18px rgba(124,92,255,0.14)}
+.nav-row{display:flex; align-items:center; gap:8px; width:100%}
+.emoji{font-size:16px; width:20px; text-align:center; flex-shrink:0}
+.nav-label{flex:1; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.count{font-size:10.5px; color:var(--text-3); background:var(--bg-3); padding:1px 7px; border-radius:20px; font-weight:700; flex-shrink:0}
+.nav-btn.active .count{background:rgba(124,92,255,0.3); color:var(--text-1)}
+.badges-row{display:flex; gap:3px; padding-left:28px; flex-wrap:wrap}
+.platform-badge{font-size:8.5px; font-weight:800; letter-spacing:0.04em; padding:2px 5px; border-radius:5px; text-transform:uppercase; display:inline-flex; align-items:center; gap:2px; line-height:1; white-space:nowrap; border:1px solid}
+.platform-badge.chatgpt{background:rgba(16,163,127,0.12); color:#2dd4a0; border-color:rgba(16,163,127,0.25)}
+.platform-badge.claude{background:rgba(217,119,87,0.12); color:#f0a080; border-color:rgba(217,119,87,0.25)}
+.platform-badge.gemini{background:rgba(66,133,244,0.12); color:#7aa9f7; border-color:rgba(66,133,244,0.25)}
+.platform-badge.partial{opacity:0.6; font-style:italic}
+.meta-badge{font-size:8.5px; font-weight:800; padding:2px 6px; border-radius:5px; text-transform:uppercase; letter-spacing:0.04em; border:1px solid}
+.meta-badge.comm{background:rgba(245,158,11,0.15); color:#fbbf24; border-color:rgba(245,158,11,0.3)}
+.meta-badge.chatgpt{background:rgba(16,163,127,0.15); color:#34d399; border-color:rgba(16,163,127,0.3)}
+.meta-badge.claude{background:rgba(217,119,87,0.15); color:#fb9a7a; border-color:rgba(217,119,87,0.3)}
+.meta-badge.gemini_flow{background:rgba(66,133,244,0.15); color:#93b9ff; border-color:rgba(66,133,244,0.3)}
+.meta-badge.video_pur{background:rgba(239,68,68,0.15); color:#fca5a5; border-color:rgba(239,68,68,0.3)}
+.meta-badge.image_flow{background:rgba(139,92,246,0.15); color:#c4b5fd; border-color:rgba(139,92,246,0.3)}
+main{min-width:0}
+.hero{margin-bottom:16px; padding:20px 22px; border-radius:var(--radius-xl); background:linear-gradient(135deg, rgba(124,92,255,0.10), rgba(34,211,238,0.06), rgba(244,114,182,0.04)); border:1px solid var(--border); position:relative; overflow:hidden}
+.hero::before{content:''; position:absolute; top:-60%; right:-15%; width:480px; height:480px; border-radius:50%; background:radial-gradient(circle, rgba(124,92,255,0.16), transparent 70%); pointer-events:none}
+.hero h1{font-size:21px; font-weight:900; margin-bottom:6px; letter-spacing:-0.03em; position:relative}
+.hero p{color:var(--text-2); font-size:12.5px; max-width:720px; line-height:1.55; position:relative; margin-bottom:12px}
+.accent-text{background:linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; font-weight:800}
+.hero-badges{display:flex; gap:6px; flex-wrap:wrap; position:relative}
+.hero-badges .platform-badge{font-size:10px; padding:4px 9px; border-radius:7px}
+.legend{display:flex; gap:8px; flex-wrap:wrap; align-items:center; padding:8px 12px; margin-bottom:14px; background:var(--bg-2); border:1px solid var(--border); border-radius:10px; font-size:10.5px; color:var(--text-3)}
+.legend-title{font-weight:800; color:var(--text-2); margin-right:2px}
+.legend-item{display:flex; align-items:center; gap:4px}
+.cat-block{margin-bottom:20px; animation:fadeIn 0.32s var(--ease)}
+@keyframes fadeIn{from{opacity:0; transform:translateY(6px)} to{opacity:1; transform:translateY(0)}}
+.cat-head{display:flex; align-items:center; gap:8px; padding:10px 14px; margin-bottom:8px; background:var(--bg-2); border:1px solid var(--border); border-radius:11px; cursor:pointer; transition:all 0.2s var(--ease); user-select:none}
+.cat-head:hover{border-color:var(--border-hover); background:var(--bg-3)}
+.cat-head.collapsed .chevron{transform:rotate(-90deg)}
+.chevron{margin-left:auto; transition:transform 0.22s var(--ease); font-size:10px; color:var(--text-3)}
+.cat-head h3{font-size:13px; font-weight:700}
+.sub-count{font-size:10.5px; color:var(--text-3); background:var(--bg-3); padding:1px 7px; border-radius:20px; font-weight:700}
+.dot{width:7px; height:7px; border-radius:50%; flex-shrink:0}
+.cmd-grid{display:grid; gap:7px}
+.cmd{display:flex; align-items:center; gap:10px; padding:10px 12px; background:var(--bg-1); border:1px solid var(--border); border-radius:11px; transition:all 0.18s var(--ease); position:relative; overflow:hidden}
+.cmd::before{content:''; position:absolute; left:0; top:0; bottom:0; width:2px; background:linear-gradient(180deg, var(--accent), var(--accent-2)); opacity:0; transition:opacity 0.2s}
+.cmd:hover{border-color:var(--border-hover); background:var(--bg-2); transform:translateY(-1px); box-shadow:var(--shadow-s)}
+.cmd:hover::before{opacity:1}
+.cmd.fav{border-color:rgba(244,114,182,0.32); background:linear-gradient(135deg, rgba(244,114,182,0.06), var(--bg-1))}
+.cmd-code{font-family:'JetBrains Mono',monospace; font-size:11.5px; font-weight:700; color:var(--accent-2); background:rgba(34,211,238,0.08); padding:5px 9px; border-radius:7px; white-space:nowrap; border:1px solid rgba(34,211,238,0.15); min-width:150px; letter-spacing:-0.02em}
+.cmd-desc{flex:1; font-size:12.5px; color:var(--text-2); line-height:1.4}
+.cmd-meta{display:flex; gap:4px; flex-wrap:wrap; align-items:center}
+.cmd-actions{display:flex; gap:4px; opacity:0; transition:opacity 0.16s; flex-shrink:0}
+.cmd:hover .cmd-actions{opacity:1}
+@media(max-width:700px){.cmd-actions{opacity:1} .cmd{flex-wrap:wrap} .cmd-code{min-width:auto} .cmd-desc{order:3; width:100%}}
+.btn-icon{width:30px; height:30px; border-radius:7px; background:var(--bg-3); border:1px solid var(--border); color:var(--text-2); cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:13px; transition:all 0.16s var(--ease); flex-shrink:0}
+.btn-icon:hover{background:var(--accent); color:#fff; border-color:var(--accent); transform:scale(1.06)}
+.btn-icon.copied{background:var(--success); border-color:var(--success); color:#000}
+.btn-icon.fav-active{background:rgba(244,114,182,0.18); border-color:rgba(244,114,182,0.38); color:#f472b6}
+.loading{display:flex; flex-direction:column; align-items:center; justify-content:center; padding:70px 20px; gap:14px}
+.spinner{width:40px; height:40px; border-radius:50%; border:3px solid var(--border); border-top-color:var(--accent); animation:spin 0.8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading p{color:var(--text-3); font-size:12px}
+.error-box{padding:16px; border-radius:11px; background:rgba(239,68,68,0.08); border:1px solid rgba(239,68,68,0.25); color:#fca5a5; font-size:12.5px; margin:14px 0; line-height:1.6}
+.empty{text-align:center; padding:48px 18px; color:var(--text-3)}
+.empty .big{font-size:40px; margin-bottom:12px; opacity:0.32}
+.empty p{font-size:12.5px; max-width:420px; margin:0 auto; line-height:1.6}
+.toast{position:fixed; bottom:24px; left:50%; transform:translateX(-50%) translateY(110px); padding:11px 18px; border-radius:11px; background:var(--text-1); color:#000; font-size:12.5px; font-weight:700; box-shadow:0 12px 40px rgba(0,0,0,0.5); transition:transform 0.36s var(--ease), opacity 0.36s; opacity:0; z-index:1000; pointer-events:none; display:flex; align-items:center; gap:7px}
+.toast.show{transform:translateX(-50%) translateY(0); opacity:1}
+.toast.success{background:var(--success)}
+::-webkit-scrollbar{width:9px; height:9px} ::-webkit-scrollbar-track{background:var(--bg-0)} ::-webkit-scrollbar-thumb{background:var(--bg-3); border-radius:5px; border:2px solid var(--bg-0)} ::-webkit-scrollbar-thumb:hover{background:var(--border-hover)}
+.family-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:10px}
+.family-card{background:var(--bg-1); border:1px solid var(--border); border-radius:12px; padding:14px; transition:all 0.2s var(--ease)}
+.family-card:hover{border-color:var(--border-hover); background:var(--bg-2); transform:translateY(-1px)}
+.family-card h4{font-size:13px; font-weight:800; margin-bottom:6px; display:flex; align-items:center; gap:8px}
+.family-card .family-meta{font-size:10.5px; color:var(--text-3); margin-bottom:8px}
+.family-card .family-cmds{display:flex; flex-wrap:wrap; gap:5px}
+.family-chip{font-family:'JetBrains Mono',monospace; font-size:10.5px; background:var(--bg-3); border:1px solid var(--border); padding:3px 7px; border-radius:6px; color:var(--accent-2); cursor:pointer; transition:all 0.15s}
+.family-chip:hover{background:var(--accent); color:#fff; border-color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <div class="header-top">
+    <div class="logo" onclick="state.activeMeta='INFO'; renderMetaTabs(); renderNav(); renderContent(); window.scrollTo({top:0,behavior:'smooth'});" style="cursor:pointer" title="Voir Concepteur & PRO"><div class="logo-mark">⚡</div><span class="grad">Bibliothèque IA LITE FREE</span></div>
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Rechercher… /cinematic, hook, marketing, cold">
+      <span class="search-hint">/ = focus</span>
+    </div>
+    <div class="header-actions">
+      <button class="btn" id="btn-dedup" title="Masquer doublons">🧹 Dédoublonner</button>
+      <button class="btn" id="btn-export-txt">📄 TXT</button>
+      <button class="btn" id="btn-export-csv">📊 CSV</button>
+      <button class="btn primary" id="btn-export-json">💾 JSON</button>
+    </div>
+    <div class="stats">
+      <span><b id="total-cmds">…</b> cmds</span>
+      <span>•</span>
+      <span><b id="total-cats">…</b> cats</span>
+      <span>•</span>
+      <span>❤️ <b id="fav-count">0</b></span>
+    </div>
+  </div>
+  <div class="meta-bar" id="meta-bar"></div>
+
+</header>
+<div style="max-width:1680px; margin:0 auto; padding:10px 24px;">
+  <div onclick="state.activeMeta='INFO'; renderMetaTabs(); renderNav(); renderContent(); window.scrollTo({top:0,behavior:'smooth'});" style="background:linear-gradient(135deg, #7c5cff, #22d3ee); padding:10px 16px; border-radius:12px; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; cursor:pointer;" title="Voir version PRO">
+    <div style="font-size:13px; font-weight:700; color:#fff;">🎁 Version FREE 400 cmds - Version PRO 2802 cmds disponible → <a href="#" onclick="event.preventDefault(); state.activeMeta='INFO'; renderMetaTabs(); renderNav(); renderContent(); window.scrollTo({top:0,behavior:'smooth'});" style="color:#fff; text-decoration:underline; cursor:pointer;">Voir PRO</a></div>
+    <a href="#" onclick="event.preventDefault(); state.activeMeta='INFO'; renderMetaTabs(); renderNav(); renderContent(); window.scrollTo({top:0,behavior:'smooth'});" style="background:#fff; color:#7c5cff; padding:6px 12px; border-radius:8px; font-size:12px; font-weight:800; text-decoration:none; cursor:pointer;">💎 Passer PRO</a>
+  </div>
+</div>
+<div class="layout">
+
+  <aside class="sidebar">
+    <div class="nav-title">
+      <span>Catégories</span>
+      <label class="toggle"><input type="checkbox" id="toggle-global-search"> Global</label>
+    </div>
+    <div id="nav"></div>
+  </aside>
+  <main id="main">
+    <div class="loading"><div class="spinner"></div><p>Chargement de 400 commandes FREE…</p></div>
+  </main>
+</div>
+<div class="toast" id="toast">✅ Copié</div>
+<script>
+const CATEGORY_META = {
+  writing:"CHATGPT", thinking:"CLAUDE", content:"CHATGPT", productivity:"CHATGPT",
+  learning:"CLAUDE", coding:"CLAUDE", marketing:"COMM", ads:"COMM",
+  image:"GEMINI_FLOW", cinema:"GEMINI_FLOW", effects:"GEMINI_FLOW",
+  "social-aa":"GEMINI_FLOW", packaging:"GEMINI_FLOW", "ooh-ads":"COMM",
+  "sector-ads":"COMM", roles:"CHATGPT", legal:"CLAUDE", finance:"COMM",
+  health:"CHATGPT", home:"CHATGPT", support:"COMM", datascience:"CLAUDE",
+  specialized:"CLAUDE"
+};
+const META_LABELS = {
+  ALL:{label:"Tous", icon:"🌐", color:"#2a2a3a", desc:"400 commandes gratuites - aperçu PRO 2802"},
+  CHATGPT:{label:"CHATGPT", icon:"🟢", color:"#10a37f", desc:"100 meilleures commandes ChatGPT - écriture, contenu"},
+  CLAUDE:{label:"CLAUDE", icon:"🟠", color:"#d97757", desc:"100 meilleures commandes Claude - réflexion, analyse"},
+  GEMINI_FLOW:{label:"FLOW", icon:"🎬", color:"#4285f4", desc:"100 meilleures commandes Gemini/Flow - image, vidéo"},
+  COMM:{label:"COMM", icon:"📊", color:"#f59e0b", desc:"100 meilleures commandes Business - marketing, vente"},
+  FAV:{label:"Favoris", icon:"❤️", color:"#f472b6", desc:"Tes favoris"},
+  INFO:{label:"Concepteur", icon:"👤", color:"#22d3ee", desc:"Infos concepteur & PRO version"}
+};
+const PLATFORM_SUPPORT = {
+  writing:{chatgpt:"full", claude:"full", gemini:"full"},
+  thinking:{chatgpt:"full", claude:"full", gemini:"full"},
+  content:{chatgpt:"full", claude:"full", gemini:"partial"},
+  productivity:{chatgpt:"full", claude:"full", gemini:"full"},
+  learning:{chatgpt:"full", claude:"full", gemini:"full"},
+  coding:{chatgpt:"full", claude:"full", gemini:"partial"},
+  marketing:{chatgpt:"full", claude:"full", gemini:"full"},
+  ads:{chatgpt:"full", claude:"full", gemini:"partial"},
+  image:{chatgpt:"full", claude:false, gemini:"full"},
+  cinema:{chatgpt:"full", claude:false, gemini:"full"},
+  effects:{chatgpt:"full", claude:false, gemini:"full"},
+  packaging:{chatgpt:"full", claude:false, gemini:"full"},
+  "social-aa":{chatgpt:"full", claude:"partial", gemini:"full"},
+  "ooh-ads":{chatgpt:"full", claude:false, gemini:"full"},
+  "sector-ads":{chatgpt:"full", claude:false, gemini:"full"},
+  roles:{chatgpt:"full", claude:"full", gemini:"full"},
+  legal:{chatgpt:"full", claude:"full", gemini:"full"},
+  finance:{chatgpt:"full", claude:"full", gemini:"full"},
+  health:{chatgpt:"full", claude:"full", gemini:"full"},
+  home:{chatgpt:"full", claude:"full", gemini:"full"},
+  support:{chatgpt:"full", claude:"full", gemini:"full"},
+  datascience:{chatgpt:"full", claude:"full", gemini:"partial"},
+  specialized:{chatgpt:"full", claude:"full", gemini:"full"},
+};
+const PLATFORMS = {
+  chatgpt:{label:"ChatGPT", icon:"🟢", cls:"chatgpt"},
+  claude:{label:"Claude", icon:"🟠", cls:"claude"},
+  gemini:{label:"Gemini", icon:"🔵", cls:"gemini"},
+};
+let DATA=null, RAW_CATEGORIES=[], FAMILIES={}, state={
+  activeCat:null, activeMeta:"ALL", search:"", globalSearch:false, dedup:false,
+  favs:new Set(JSON.parse(localStorage.getItem("fav_commands")||"[]")),
+};
+const $=id=>document.getElementById(id), navEl=$("nav"), mainEl=$("main"), searchEl=$("search"), metaBarEl=$("meta-bar");
+function renderPlatformBadges(catId){
+  const sup=PLATFORM_SUPPORT[catId]; if(!sup) return "";
+  let h=""; Object.entries(PLATFORMS).forEach(([k,p])=>{
+    const lvl=sup[k]; if(lvl===false) return;
+    const partial=lvl==="partial"?" partial":""; const suf=lvl==="partial"?" ~":"";
+    h+=`<span class="platform-badge ${p.cls}${partial}">${p.icon} ${p.label}${suf}</span>`;
+  }); return h;
+}
+function metaBadge(meta){ return `<span class="meta-badge ${meta.toLowerCase()}">${META_LABELS[meta]?.icon||""} ${meta}</span>`; }
+function saveFavs(){ localStorage.setItem("fav_commands", JSON.stringify([...state.favs])); $("fav-count").textContent=state.favs.size; }
+function isFav(cmd){ return state.favs.has(cmd.toLowerCase()); }
+async function loadData(){
+  let json=null;
+  const tries=['commands-free.json','commands-master.json','./commands-free.json','./commands-master.json','uploads/commands-free.json','uploads/commands-master.json'];
+  for(const p of tries){
+    try{
+      const res=await fetch(p);
+      if(res.ok){ json=await res.json(); console.log('Loaded '+p); break; }
+    }catch(e){}
+  }
+  if(!json){
+    mainEl.innerHTML=`<div class="error-box"><strong>⚠️ Erreur chargement</strong><br>Impossible de charger <code>commands-free.json</code><br>Place ce fichier à côté de index.html<br>Puis lance <code>python -m http.server 8000</code><br>Ouvre http://localhost:8000</div>`;
+    return;
+  }
+  buildData(json);
+  try{
+    const famRes=await fetch('families.json');
+    if(famRes.ok){ FAMILIES=await famRes.json(); }
+    else {
+      const fam2=await fetch('families-free.json');
+      if(fam2.ok) FAMILIES=await fam2.json();
+    }
+  }catch(e){ console.log("families.json not loaded", e); }
+  init();
+}
+function buildData(json){
+  RAW_CATEGORIES=json.categories.map(c=>({
+    id:c.id, label:c.label, icon:c.icon||"📁", color:c.color||"#7c5cff",
+    meta:c.meta||CATEGORY_META[c.id]||"CHATGPT",
+    commands:(c.commands||[]).map(x=>({cmd:x.cmd, desc:x.desc, desc_long:x.desc_long||x.desc, catId:c.id, meta:c.meta||CATEGORY_META[c.id]||"CHATGPT"}))
+  }));
+  DATA={}; RAW_CATEGORIES.forEach(cat=>{
+    DATA[cat.id]={label:cat.label, emoji:cat.icon, color:cat.color, meta:cat.meta, description:`${cat.commands.length} commandes • ${META_LABELS[cat.meta]?.desc||""}`, subcategories:[{name:cat.label, commands:cat.commands}]};
+  });
+}
+function init(){
+  state.activeCat=RAW_CATEGORIES[0]?.id||null;
+  renderMetaTabs(); renderNav(); renderContent(); updateStats();
+  searchEl.addEventListener('input', e=>{ state.search=e.target.value; renderContent(); renderMetaTabs(); renderNav(); });
+  $("toggle-global-search").addEventListener('change', e=>{ state.globalSearch=e.target.checked; renderContent(); });
+  $("btn-dedup").addEventListener('click', ()=>{ state.dedup=!state.dedup; $("btn-dedup").classList.toggle('active', state.dedup); renderContent(); });
+  $("btn-export-txt").addEventListener('click', ()=>exportFiltered('txt'));
+  $("btn-export-csv").addEventListener('click', ()=>exportFiltered('csv'));
+  $("btn-export-json").addEventListener('click', ()=>exportFiltered('json'));
+  document.addEventListener('keydown', e=>{
+    if(e.key==='/' && document.activeElement!==searchEl){ e.preventDefault(); searchEl.focus(); }
+    if(e.key==='Escape'){ searchEl.value=''; state.search=''; renderContent(); renderMetaTabs(); renderNav(); }
+  });
+  saveFavs();
+}
+function countAll(){ return RAW_CATEGORIES.reduce((a,c)=>a+c.commands.length,0); }
+function filteredCategories(){
+  let cats=RAW_CATEGORIES;
+  if(state.activeMeta==="VIDEO_PUR"){
+    cats=cats.filter(c=>["cinema","effects"].includes(c.id));
+  } else if(state.activeMeta==="IMAGE_FLOW"){
+    cats=cats.filter(c=>["image","packaging","social-aa"].includes(c.id));
+  } else if(state.activeMeta!=="ALL" && state.activeMeta!=="FAV" && state.activeMeta!=="FAMILIES"){
+    cats=cats.filter(c=>c.meta===state.activeMeta);
+  }
+  return cats;
+}
+function updateStats(){
+  $("total-cmds").textContent=countAll().toLocaleString('fr-FR');
+  $("total-cats").textContent=RAW_CATEGORIES.length;
+}
+function renderMetaTabs(){
+  const counts={
+    ALL:countAll(), 
+    FAV:state.favs.size, 
+    FAMILIES:Object.keys(FAMILIES).length||1480,
+    VIDEO_PUR: RAW_CATEGORIES.filter(c=>["cinema","effects"].includes(c.id)).reduce((a,c)=>a+c.commands.length,0),
+    IMAGE_FLOW: RAW_CATEGORIES.filter(c=>["image","packaging","social-aa"].includes(c.id)).reduce((a,c)=>a+c.commands.length,0)
+  };
+  Object.keys(META_LABELS).forEach(k=>{
+    if(!counts[k]){
+      if(k!=="ALL" && k!=="FAV" && k!=="FAMILIES" && k!=="VIDEO_PUR" && k!=="IMAGE_FLOW"){
+        counts[k]=RAW_CATEGORIES.filter(c=>c.meta===k).reduce((a,c)=>a+c.commands.length,0);
+      }
+    }
+  });
+  if(state.search.trim()){
+    const q=state.search.toLowerCase();
+    const globalCats=state.globalSearch ? RAW_CATEGORIES : filteredCategories();
+    const searchCounts={ALL:0, FAV:0, COMM:0, CHATGPT:0, CLAUDE:0, GEMINI_FLOW:0, VIDEO_PUR:0, IMAGE_FLOW:0, FAMILIES:0};
+    globalCats.forEach(cat=>{
+      const matches=cat.commands.filter(c=>c.cmd.toLowerCase().includes(q)||c.desc.toLowerCase().includes(q));
+      searchCounts.ALL+=matches.length;
+      searchCounts[cat.meta]+=matches.length;
+      if(["cinema","effects"].includes(cat.id)) searchCounts.VIDEO_PUR+=matches.length;
+      if(["image","packaging","social-aa"].includes(cat.id)) searchCounts.IMAGE_FLOW+=matches.length;
+      matches.forEach(m=>{ if(isFav(m.cmd)) searchCounts.FAV++; });
+    });
+    // families search
+    if(FAMILIES){
+      let famCount=0;
+      Object.entries(FAMILIES).forEach(([fam, cmds])=>{
+        const match=cmds.filter(c=>c.cmd.toLowerCase().includes(q)||c.desc.toLowerCase().includes(q));
+        if(match.length>0) famCount++;
+      });
+      searchCounts.FAMILIES=famCount;
+    }
+    Object.keys(counts).forEach(k=>{ if(state.search.trim() && searchCounts[k]!==undefined) counts[k]=searchCounts[k]; });
+  }
+  metaBarEl.innerHTML="";
+  Object.entries(META_LABELS).forEach(([key, meta])=>{
+    const btn=document.createElement('button');
+    btn.className='meta-tab'+(state.activeMeta===key?' active':'');
+    btn.dataset.meta=key;
+    btn.innerHTML=`${meta.icon} ${meta.label} <span class="meta-count">${counts[key]||0}</span>`;
+    btn.title=meta.desc||"";
+    btn.onclick=()=>{
+      state.activeMeta=key;
+      if(key!=="FAV" && key!=="FAMILIES"){
+        const firstCat=filteredCategories()[0];
+        if(firstCat) state.activeCat=firstCat.id;
+      }
+      renderMetaTabs(); renderNav(); renderContent();
+      window.scrollTo({top:0, behavior:'smooth'});
+    };
+    metaBarEl.appendChild(btn);
+  });
+}
+function renderNav(){
+  navEl.innerHTML="";
+  if(state.activeMeta==="FAMILIES"){
+    // Show families list in sidebar
+    const q=state.search.toLowerCase().trim();
+    let fams = Object.entries(FAMILIES).sort((a,b)=>b[1].length-a[1].length);
+    if(q){
+      fams = fams.filter(([fam, cmds])=> fam.toLowerCase().includes(q) || cmds.some(c=>c.cmd.toLowerCase().includes(q)||c.desc.toLowerCase().includes(q)));
+    }
+    fams.slice(0,100).forEach(([fam, cmds])=>{
+      const btn=document.createElement('button');
+      btn.className='nav-btn'+(state.activeCat===fam?' active':'');
+      btn.innerHTML=`<div class="nav-row"><span class="emoji">👨‍👩‍👧‍👦</span><span class="nav-label">${fam}</span><span class="count">${cmds.length}</span></div><div class="badges-row">${metaBadge(cmds[0]?.meta||"CHATGPT")}</div>`;
+      btn.onclick=()=>{ state.activeCat=fam; renderNav(); renderContent(); };
+      navEl.appendChild(btn);
+    });
+    return;
+  }
+  const cats=filteredCategories();
+  cats.forEach(cat=>{
+    const q=state.search.toLowerCase().trim();
+    let visibleCount=cat.commands.length;
+    if(q){ visibleCount=cat.commands.filter(c=>c.cmd.toLowerCase().includes(q)||c.desc.toLowerCase().includes(q)).length; if(visibleCount===0 && !state.globalSearch) return; }
+    if(state.activeMeta==="FAV"){ visibleCount=cat.commands.filter(c=>isFav(c.cmd)).length; if(visibleCount===0) return; }
+    const btn=document.createElement('button');
+    btn.className='nav-btn'+(state.activeCat===cat.id?' active':'');
+    btn.innerHTML=`<div class="nav-row"><span class="emoji">${cat.icon}</span><span class="nav-label">${cat.label}</span><span class="count">${visibleCount}</span></div><div class="badges-row">${renderPlatformBadges(cat.id)} ${metaBadge(cat.meta)}</div>`;
+    btn.onclick=()=>{ state.activeCat=cat.id; renderNav(); renderContent(); window.scrollTo({top:0, behavior:'smooth'}); };
+    navEl.appendChild(btn);
+  });
+}
+
+function renderInfoView(){
+  mainEl.innerHTML=`
+    <div class="hero" style="background:linear-gradient(135deg, rgba(34,211,238,0.12), rgba(124,92,255,0.08));">
+      <h1>👤 Concepteur - Bouafia Rehabi</h1>
+      <p>Développeur IA & Consultant Digital - Créateur de la Bibliothèque IA la plus complète du marché francophone</p>
+      <div class="hero-badges">
+        <span class="platform-badge chatgpt">🟢 400 FREE</span>
+        <span class="platform-badge claude">🚀 2802 PRO</span>
+        <span class="platform-badge gemini">💼 Disponible pour missions</span>
+      </div>
+    </div>
+    <div style="display:grid; gap:16px; max-width:900px;">
+      <div class="family-card" style="padding:20px;">
+        <h4 style="font-size:18px; margin-bottom:12px;">🔗 Mes coordonnées</h4>
+        <p style="color:var(--text-2); line-height:1.7; font-size:14px; margin-bottom:16px;">
+          Portfolio, CV et projets IA :<br>
+          <a href="https://cv-bouafia-rehabi.vercel.app/#hero" target="_blank" style="color:var(--accent-2); font-weight:700; font-size:16px; text-decoration:none; border-bottom:2px solid rgba(34,211,238,0.3);">https://cv-bouafia-rehabi.vercel.app/ → Voir mon CV</a>
+        </p>
+        <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:12px;">
+          <a href="https://cv-bouafia-rehabi.vercel.app/#hero" target="_blank" class="btn primary" style="text-decoration:none;">🌐 Visiter mon portfolio</a>
+          <a href="https://cv-bouafia-rehabi.vercel.app/#contact" target="_blank" class="btn" style="text-decoration:none;">📧 Me contacter</a>
+        </div>
+      </div>
+      <div class="family-card" style="padding:20px; background:linear-gradient(135deg, rgba(124,92,255,0.10), rgba(34,211,238,0.06)); border-color:rgba(124,92,255,0.25);">
+        <h4 style="font-size:18px; margin-bottom:12px;">🚀 Version PRO - 2802 commandes</h4>
+        <p style="color:var(--text-2); line-height:1.6; font-size:13px; margin-bottom:12px;">
+          Cette version FREE contient 400 commandes (100 par META).<br>
+          La version PRO complète contient <b style="color:var(--text-1)">2802 commandes</b> avec :
+        </p>
+        <ul style="color:var(--text-2); font-size:13px; line-height:1.8; margin-left:18px; margin-bottom:16px;">
+          <li>🎬 <b>742 FLOW</b> - Image, Vidéo, Cinéma, Effets</li>
+          <li>📊 <b>622 COMM</b> - Marketing, Ads, Business</li>
+          <li>🟢 <b>903 CHATGPT</b> - Écriture, Contenu</li>
+          <li>🟠 <b>535 CLAUDE</b> - Réflexion, Code</li>
+          <li>👨‍👩‍👧‍👦 <b>1747 Familles</b> regroupées</li>
+          <li>📊 <b>Excel 9 onglets</b> + export</li>
+          <li>🔄 <b>Mises à jour à vie</b></li>
+        </ul>
+        <div style="background:rgba(0,0,0,0.3); padding:12px; border-radius:10px; margin-bottom:16px;">
+          <div style="font-size:12px; color:var(--text-3);">Version PRO</div>
+          <div style="font-size:20px; font-weight:900; color:#fff;">2802 commandes • Mises à jour à vie • Support inclus</div>
+        </div>
+        <a href="https://cv-bouafia-rehabi.vercel.app/#hero" target="_blank" class="btn primary" style="text-decoration:none; width:100%; justify-content:center; padding:14px; font-size:14px;">💎 Obtenir la version PRO - 2802 cmds</a>
+      </div>
+      <div class="family-card" style="padding:20px;">
+        <h4 style="font-size:16px; margin-bottom:8px;">💡 Pourquoi une version FREE ?</h4>
+        <p style="color:var(--text-2); font-size:13px; line-height:1.6;">
+          Version gratuite lead magnet pour découvrir la puissance des commandes slash IA.<br>
+          400 commandes essentielles pour commencer.<br>
+          PRO à 2802 commandes pour gagner 10x plus de temps.
+        </p>
+      </div>
+    </div>
+  `;
+}
+
+function renderContent(){
+
+  if(!DATA) return;
+  const q=state.search.toLowerCase().trim();
+  const dedupSeen=new Set();
+  mainEl.innerHTML="";
+
+  if(state.activeMeta==="FAMILIES"){
+    renderFamiliesView();
+    return;
+  }
+  if(state.activeMeta==="INFO"){
+    renderInfoView();
+    return;
+  }
+
+  let catsToRender=[];
+  if(state.globalSearch && q){ catsToRender=filteredCategories(); }
+  else{
+    if(state.activeMeta==="FAV"){ catsToRender=RAW_CATEGORIES; }
+    else{ const active=RAW_CATEGORIES.find(c=>c.id===state.activeCat) || filteredCategories()[0]; catsToRender=active?[active]:[]; }
+  }
+  let totalVisible=0, allMatches=[];
+  catsToRender.forEach(cat=>{
+    let cmds=cat.commands;
+    if(state.activeMeta==="FAV") cmds=cmds.filter(c=>isFav(c.cmd));
+    if(q) cmds=cmds.filter(c=>c.cmd.toLowerCase().includes(q)||c.desc.toLowerCase().includes(q));
+    if(state.dedup){ cmds=cmds.filter(c=>{ const key=c.cmd.toLowerCase().replace(/\s+/g,'-'); if(dedupSeen.has(key)) return false; dedupSeen.add(key); return true; }); }
+    totalVisible+=cmds.length;
+    allMatches.push({cat, cmds});
+  });
+  const activeCatObj=RAW_CATEGORIES.find(c=>c.id===state.activeCat);
+  const metaInfo=META_LABELS[state.activeMeta];
+  const hero=document.createElement('div'); hero.className='hero';
+  const heroTitle=state.activeMeta==="FAV" ? `❤️ Favoris — ${totalVisible} commandes` : state.globalSearch && q ? `🔍 Recherche globale "${state.search}" — ${totalVisible} résultats` : `${activeCatObj?.icon||"📁"} <span class="accent-text">${activeCatObj?.label||metaInfo.label}</span> — ${totalVisible} commande${totalVisible>1?'s':''}`;
+  const heroDesc=state.activeMeta==="FAV" ? "Tes commandes épinglées. Clique sur ❤️ pour retirer." : q ? `Filtre: <strong>${state.activeMeta}</strong> • Recherche: "${state.search}" • Dédoublonnage: ${state.dedup?'ON':'OFF'}` : `${activeCatObj?.commands.length||0} commandes • ${META_LABELS[activeCatObj?.meta]?.desc||""}`;
+  hero.innerHTML=`<h1>${heroTitle}</h1><p>${heroDesc}</p><div class="hero-badges">${state.activeMeta==="ALL" ? Object.values(PLATFORMS).map(p=>`<span class="platform-badge ${p.cls}">${p.icon} ${p.label}</span>`).join('') : metaBadge(state.activeMeta)} ${activeCatObj ? renderPlatformBadges(activeCatObj.id) : ""}</div>`;
+  mainEl.appendChild(hero);
+  const legend=document.createElement('div'); legend.className='legend';
+  legend.innerHTML=`<span class="legend-title">Légende:</span><span class="legend-item"><span class="platform-badge chatgpt">🟢 ChatGPT</span> Full</span><span class="legend-item"><span class="platform-badge claude">🟠 Claude</span> Texte</span><span class="legend-item"><span class="platform-badge gemini">🔵 Gemini</span> Visuel</span><span class="legend-item"><span class="platform-badge chatgpt partial">🟢 ~</span> Partiel</span><span class="legend-item">❤️ Favori • 📋 Copier • ⚡ Prompt</span>`;
+  mainEl.appendChild(legend);
+  if(totalVisible===0){
+    const empty=document.createElement('div'); empty.className='empty';
+    empty.innerHTML=`<div class="big">${state.activeMeta==="FAV"?"💔":"🔍"}</div><p>${state.activeMeta==="FAV"?"Aucun favori.<br>Clique sur ❤️ sur une commande.":`Aucune commande ne correspond à « ${state.search} » dans <strong>${state.activeMeta}</strong>`}</p>`;
+    mainEl.appendChild(empty); return;
+  }
+  allMatches.forEach(({cat, cmds})=>{
+    if(cmds.length===0) return;
+    const block=document.createElement('div'); block.className='cat-block';
+    const head=document.createElement('div'); head.className='cat-head';
+    head.innerHTML=`<span class="dot" style="background:${cat.color}; box-shadow:0 0 10px ${cat.color}"></span><h3>${cat.icon} ${cat.label}</h3><span class="sub-count">${cmds.length}</span><span class="meta-badge ${cat.meta.toLowerCase()}">${cat.meta}</span><span class="chevron">▼</span>`;
+    const grid=document.createElement('div'); grid.className='cmd-grid';
+    head.onclick=()=>{ head.classList.toggle('collapsed'); grid.style.display=head.classList.contains('collapsed')?'none':'grid'; };
+    cmds.forEach(({cmd, desc, desc_long})=>{
+      const card=document.createElement('div'); card.className='cmd'+(isFav(cmd)?' fav':'');
+      card.innerHTML=`<div class="cmd-code">${cmd}</div><div class="cmd-desc">${desc}</div><div class="cmd-meta">${metaBadge(cat.meta)} ${renderPlatformBadges(cat.id)}</div><div class="cmd-actions"><button class="btn-icon fav-btn ${isFav(cmd)?'fav-active':''}">${isFav(cmd)?'❤️':'🤍'}</button><button class="btn-icon copy-btn" title="Copier">📋</button><button class="btn-icon prompt-btn" title="Prompt complet">⚡</button></div>`;
+      const favBtn=card.querySelector('.fav-btn'), copyBtn=card.querySelector('.copy-btn'), promptBtn=card.querySelector('.prompt-btn');
+      favBtn.onclick=e=>{ e.stopPropagation(); const low=cmd.toLowerCase(); if(state.favs.has(low)) state.favs.delete(low); else state.favs.add(low); saveFavs(); renderMetaTabs(); renderNav(); renderContent(); };
+      copyBtn.onclick=e=>{ e.stopPropagation(); copyText(cmd); flash(copyBtn,'✓'); };
+      promptBtn.onclick=e=>{ e.stopPropagation(); const promptText=`${cmd}\n[CONTEXTE]: ...\n[OBJECTIF]: ${desc_long||desc}\n[CONTRAINTES]: Ton, longueur, format\n[FORMAT]: Liste / Tableau / Paragraphe`; copyText(promptText); flash(promptBtn,'✓'); };
+      grid.appendChild(card);
+    });
+    block.appendChild(head); block.appendChild(grid); mainEl.appendChild(block);
+  });
+}
+function renderFamiliesView(){
+  const q=state.search.toLowerCase().trim();
+  const dedupSeen=new Set();
+  mainEl.innerHTML="";
+  const hero=document.createElement('div'); hero.className='hero';
+  const totalFams=Object.keys(FAMILIES).length;
+  hero.innerHTML=`<h1>👨‍👩‍👧‍👦 <span class="accent-text">Familles</span> — ${totalFams} familles</h1><p>Commandes regroupées par racine : <strong>cold</strong> = /cold, /coldemail, /coldcall • <strong>product</strong> = /product, /product-hero, /product-luxury • Clique sur une puce pour copier.</p><div class="hero-badges"><span class="meta-badge comm">📊 COMM</span><span class="meta-badge chatgpt">🟢 CHATGPT</span><span class="meta-badge claude">🟠 CLAUDE</span><span class="meta-badge gemini_flow">🎬 FLOW</span></div>`;
+  mainEl.appendChild(hero);
+
+  let fams=Object.entries(FAMILIES).sort((a,b)=>b[1].length-a[1].length);
+  if(q){ fams=fams.filter(([fam, cmds])=> fam.toLowerCase().includes(q) || cmds.some(c=>c.cmd.toLowerCase().includes(q)||c.desc.toLowerCase().includes(q))); }
+  if(state.activeCat && FAMILIES[state.activeCat]){ fams=[[state.activeCat, FAMILIES[state.activeCat]]]; }
+
+  if(fams.length===0){
+    mainEl.innerHTML+=`<div class="empty"><div class="big">🔍</div><p>Aucune famille ne correspond à « ${state.search} »</p></div>`; return;
+  }
+
+  const grid=document.createElement('div'); grid.className='family-grid';
+  fams.slice(0,120).forEach(([fam, cmds])=>{
+    let filtered=cmds;
+    if(q) filtered=cmds.filter(c=>c.cmd.toLowerCase().includes(q)||c.desc.toLowerCase().includes(q));
+    if(state.dedup){ filtered=filtered.filter(c=>{ const k=c.cmd.toLowerCase(); if(dedupSeen.has(k)) return false; dedupSeen.add(k); return true; }); }
+    if(filtered.length===0) return;
+    const metaCounts={}; filtered.forEach(c=>{ metaCounts[c.meta]=(metaCounts[c.meta]||0)+1; });
+    const dominant=Object.entries(metaCounts).sort((a,b)=>b[1]-a[1])[0]?.[0]||"CHATGPT";
+    const card=document.createElement('div'); card.className='family-card';
+    card.innerHTML=`<h4>${fam} <span class="count">${filtered.length}</span> <span class="meta-badge ${dominant.toLowerCase()}">${dominant}</span></h4><div class="family-meta">${filtered[0]?.category||""} • ${Object.entries(metaCounts).map(([m,c])=>`${m}:${c}`).join(' ')}</div><div class="family-cmds">${filtered.slice(0,18).map(c=>`<span class="family-chip" title="${c.desc}">${c.cmd}</span>`).join('')}${filtered.length>18?`<span class="count">+${filtered.length-18}</span>`:''}</div>`;
+    card.querySelectorAll('.family-chip').forEach(chip=>{
+      chip.onclick=()=>{ copyText(chip.textContent); flash(chip,'✓'); };
+    });
+    grid.appendChild(card);
+  });
+  mainEl.appendChild(grid);
+}
+function copyText(text){
+  if(navigator.clipboard && window.isSecureContext){ navigator.clipboard.writeText(text).then(()=>showToast()).catch(()=>{ fallbackCopy(text); showToast(); }); }
+  else{ fallbackCopy(text); showToast(); }
+}
+function fallbackCopy(text){ const ta=document.createElement('textarea'); ta.value=text; ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta); ta.select(); try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); }
+let toastTimer;
+function showToast(msg="✅ Copié"){
+  const t=$("toast"); t.textContent=msg; t.classList.add('show','success'); clearTimeout(toastTimer); toastTimer=setTimeout(()=>t.classList.remove('show'),1900);
+}
+function flash(btn, sym){ const orig=btn.textContent; btn.classList.add('copied'); btn.textContent=sym; setTimeout(()=>{ btn.classList.remove('copied'); btn.textContent=orig; },900); }
+function getFilteredCommands(){
+  const q=state.search.toLowerCase().trim();
+  let cats=state.globalSearch && q ? filteredCategories() : (state.activeMeta==="FAV" ? RAW_CATEGORIES : [RAW_CATEGORIES.find(c=>c.id===state.activeCat)].filter(Boolean));
+  if(state.activeMeta==="FAMILIES"){
+    let all=[]; Object.values(FAMILIES).forEach(arr=>all.push(...arr));
+    if(q) all=all.filter(c=>c.cmd.toLowerCase().includes(q)||c.desc.toLowerCase().includes(q));
+    return all;
+  }
+  let all=[]; const seen=new Set();
+  cats.forEach(cat=>{
+    let cmds=cat.commands;
+    if(state.activeMeta==="FAV") cmds=cmds.filter(c=>isFav(c.cmd));
+    if(q) cmds=cmds.filter(c=>c.cmd.toLowerCase().includes(q)||c.desc.toLowerCase().includes(q));
+    if(state.dedup){ cmds=cmds.filter(c=>{ const k=c.cmd.toLowerCase(); if(seen.has(k)) return false; seen.add(k); return true; }); }
+    all.push(...cmds.map(c=>({...c, category:cat.label, meta:cat.meta, family:c.cmd.replace('/','').split('-')[0]})));
+  }); return all;
+}
+function exportFiltered(format){
+  const cmds=getFilteredCommands();
+  if(cmds.length===0){ showToast("⚠️ Rien à exporter"); return; }
+  let content="", mime="", ext="";
+  if(format==='txt'){ content=cmds.map(c=>`${c.cmd} — ${c.desc||c.desc_short||""} [${c.category||c.family}/${c.meta}]`).join("\n"); mime="text/plain"; ext="txt"; }
+  else if(format==='csv'){ content="commande,description,categorie,famille,meta\n"+cmds.map(c=>`\"${(c.cmd||"").replace(/\"/g,'\"\"')}\",\"${(c.desc||c.desc_short||"").replace(/\"/g,'\"\"')}\",\"${c.category||""}\",\"${c.family||""}\",\"${c.meta||""}\"`).join("\n"); mime="text/csv"; ext="csv"; }
+  else{ content=JSON.stringify({meta:{export:state.activeMeta, search:state.search, count:cmds.length, date:new Date().toISOString()}, commands:cmds}, null, 2); mime="application/json"; ext="json"; }
+  const blob=new Blob([content], {type:mime}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download=`bibliotheque-ia-${state.activeMeta.toLowerCase()}-${Date.now()}.${ext}`; a.click(); URL.revokeObjectURL(url); showToast(`📥 Export ${format.toUpperCase()} : ${cmds.length} commandes`);
+}
+loadData();
+</script>
+</body>
+</html>

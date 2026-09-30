@@ -1,0 +1,2581 @@
+{
+  "meta": {
+    "title": "Bibliotheque IA LITE FREE",
+    "version": "v4.7",
+    "total_commands": 400,
+    "total_categories": 19
+  },
+  "categories": [
+    {
+      "id": "content",
+      "label": "Creation de Contenu",
+      "icon": "🎨",
+      "color": "#f472b6",
+      "meta": "CHATGPT",
+      "commands": [
+        {
+          "cmd": "/SCAMPER",
+          "desc": "/SCAMPER — Création de contenu — Version gratuite 400, optimisée en français.",
+          "desc_short": "Framework SCAMPER",
+          "desc_long": "Commande gratuite /SCAMPER en français. Création de contenu. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/acronym",
+          "desc": "/acronym — Création de contenu — Version gratuite 400, optimisée en français.",
+          "desc_short": "Acronyme memorable",
+          "desc_long": "Commande gratuite /acronym en français. Création de contenu. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/aesthetic",
+          "desc": "/aesthetic — Création de contenu — Version gratuite 400, optimisée en français.",
+          "desc_short": "Definit une esthetique visuelle",
+          "desc_long": "Commande gratuite /aesthetic en français. Création de contenu. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/angles",
+          "desc": "/angles — Création de contenu — Version gratuite 400, optimisée en français.",
+          "desc_short": "Propose des angles differents",
+          "desc_long": "Commande gratuite /angles en français. Création de contenu. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/brainstorm",
+          "desc": "/brainstorm — Création de contenu — Version gratuite 400, optimisée en français.",
+          "desc_short": "Brainstorm en mode divergent",
+          "desc_long": "Commande gratuite /brainstorm en français. Création de contenu. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/examples",
+          "desc": "/examples — Création de contenu — Version gratuite 400, optimisée en français.",
+          "desc_short": "Donne des exemples pratiques",
+          "desc_long": "Commande gratuite /examples en français. Création de contenu. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/friendly",
+          "desc": "/friendly — Création de contenu — Version gratuite 400, optimisée en français.",
+          "desc_short": "communication chaleureuse - Reecris ce texte pour qu'il soit chaleureux, accessible et p",
+          "desc_long": "Commande gratuite /friendly en français. Création de contenu. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/ideas",
+          "desc": "/ideas — Création de contenu — Version gratuite 400, optimisée en français.",
+          "desc_short": "Genere des idees creatives",
+          "desc_long": "Commande gratuite /ideas en français. Création de contenu. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/viral",
+          "desc": "/viral — Création de contenu — Version gratuite 400, optimisée en français.",
+          "desc_short": "Propose une formulation virale",
+          "desc_long": "Commande gratuite /viral en français. Création de contenu. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "label": "Sante, Bien-etre & Mental",
+      "icon": "🩺",
+      "color": "#0891b2",
+      "meta": "CHATGPT",
+      "commands": [
+        {
+          "cmd": "/3dmedical",
+          "desc": "/3dmedical — Santé et bien-être — Version gratuite 400, optimisée en français.",
+          "desc_short": "3Dmedical - 3Dmedical effect / prompt",
+          "desc_long": "Commande gratuite /3dmedical en français. Santé et bien-être. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bacteria",
+          "desc": "/bacteria — Santé et bien-être — Version gratuite 400, optimisée en français.",
+          "desc_short": "Bacteria - Bacteria effect / prompt",
+          "desc_long": "Commande gratuite /bacteria en français. Santé et bien-être. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "label": "Productivite & Organisation",
+      "icon": "⚡",
+      "color": "#34d399",
+      "meta": "CHATGPT",
+      "commands": [
+        {
+          "cmd": "/20",
+          "desc": "/20 — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "20",
+          "desc_long": "Commande gratuite /20 en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/202",
+          "desc": "/202 — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "202",
+          "desc_long": "Commande gratuite /202 en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/80-20",
+          "desc": "/80-20 — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Identify the 20% that creates 80% of the results - Pareto",
+          "desc_long": "Commande gratuite /80-20 en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/abandon",
+          "desc": "/abandon — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "recuperation de paniers abandonnes - Cree une sequence de 3 emails pour recuperer les abandons de",
+          "desc_long": "Commande gratuite /abandon en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/absurd",
+          "desc": "/absurd — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Absurd",
+          "desc_long": "Commande gratuite /absurd en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/action",
+          "desc": "/action — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Transforme en etapes executables",
+          "desc_long": "Commande gratuite /action en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/actions",
+          "desc": "/actions — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Actions",
+          "desc_long": "Commande gratuite /actions en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/active",
+          "desc": "/active — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Active",
+          "desc_long": "Commande gratuite /active en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/alternate",
+          "desc": "/alternate — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Alternate",
+          "desc_long": "Commande gratuite /alternate en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/ambiance",
+          "desc": "/ambiance — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ambiance",
+          "desc_long": "Commande gratuite /ambiance en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/anatomy",
+          "desc": "/anatomy — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "decomposition analytique - Dissèque [sujet] en toutes ses parties constitutives. Pour c",
+          "desc_long": "Commande gratuite /anatomy en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/apology",
+          "desc": "/apology — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ecrit des excuses appropriees",
+          "desc_long": "Commande gratuite /apology en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/apr",
+          "desc": "/apr — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Apr",
+          "desc_long": "Commande gratuite /apr en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/arabize",
+          "desc": "/arabize — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Arabize",
+          "desc_long": "Commande gratuite /arabize en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/assets",
+          "desc": "/assets — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Assets",
+          "desc_long": "Commande gratuite /assets en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/audience",
+          "desc": "/audience — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Audience",
+          "desc_long": "Commande gratuite /audience en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/aujourd",
+          "desc": "/aujourd — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Aujourd",
+          "desc_long": "Commande gratuite /aujourd en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/authority",
+          "desc": "/authority — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Authority",
+          "desc_long": "Commande gratuite /authority en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/automate",
+          "desc": "/automate — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ce qui peut etre automatise",
+          "desc_long": "Commande gratuite /automate en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/await",
+          "desc": "/await — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Await",
+          "desc_long": "Commande gratuite /await en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/barri",
+          "desc": "/barri — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Barri",
+          "desc_long": "Commande gratuite /barri en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/batch",
+          "desc": "/batch — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Traitement par lot",
+          "desc_long": "Commande gratuite /batch en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/checklist",
+          "desc": "/checklist — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cree une checklist complete",
+          "desc_long": "Commande gratuite /checklist en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/email",
+          "desc": "/email — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ecrit un email professionnel",
+          "desc_long": "Commande gratuite /email en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/miniworld",
+          "desc": "/miniworld — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Miniworld",
+          "desc_long": "Commande gratuite /miniworld en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/plan",
+          "desc": "/plan — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cree un plan d action clair",
+          "desc_long": "Commande gratuite /plan en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/seo",
+          "desc": "/seo — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Seo",
+          "desc_long": "Commande gratuite /seo en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/steps",
+          "desc": "/steps — Productivité et organisation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Explique etape par etape",
+          "desc_long": "Commande gratuite /steps en français. Productivité et organisation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "roles",
+      "label": "Roles & Personas",
+      "icon": "🎭",
+      "color": "#8b5cf6",
+      "meta": "CHATGPT",
+      "commands": [
+        {
+          "cmd": "/10x-role",
+          "desc": "/10x-role — Rôles et personas IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ameliore 10 fois mieux",
+          "desc_long": "Commande gratuite /10x-role en français. Rôles et personas IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/expert",
+          "desc": "/expert — Rôles et personas IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Repond au niveau d un expert",
+          "desc_long": "Commande gratuite /expert en français. Rôles et personas IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "label": "Ecriture & Edition",
+      "icon": "✍️",
+      "color": "#7c5cff",
+      "meta": "CHATGPT",
+      "commands": [
+        {
+          "cmd": "/10x",
+          "desc": "/10x — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ameliore le contenu 10 fois mieux",
+          "desc_long": "Commande gratuite /10x en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/16x9",
+          "desc": "/16x9 — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "16X9",
+          "desc_long": "Commande gratuite /16x9 en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/1x1",
+          "desc": "/1x1 — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "1X1",
+          "desc_long": "Commande gratuite /1x1 en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/3d",
+          "desc": "/3d — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "render",
+          "desc_long": "Commande gratuite /3d en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/4x5",
+          "desc": "/4x5 — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "4X5",
+          "desc_long": "Commande gratuite /4x5 en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/8--ar-1",
+          "desc": "/8--ar-1 — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "1 --style raw --v 6.1\"",
+          "desc_long": "Commande gratuite /8--ar-1 en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/9x16",
+          "desc": "/9x16 — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "9X16",
+          "desc_long": "Commande gratuite /9x16 en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/add-types",
+          "desc": "/add-types — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ajouter le typage statique (TypeScript, Python type hints).",
+          "desc_long": "Commande gratuite /add-types en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/agile",
+          "desc": "/agile — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Méthode Agile",
+          "desc_long": "Commande gratuite /agile en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/ai",
+          "desc": "/ai — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ai",
+          "desc_long": "Commande gratuite /ai en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/album",
+          "desc": "/album — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "cover",
+          "desc_long": "Commande gratuite /album en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/alt3",
+          "desc": "/alt3 — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Alt3",
+          "desc_long": "Commande gratuite /alt3 en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/analyst",
+          "desc": "/analyst — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Analyst",
+          "desc_long": "Commande gratuite /analyst en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/analytics",
+          "desc": "/analytics — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Analytics",
+          "desc_long": "Commande gratuite /analytics en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/annual",
+          "desc": "/annual — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "report",
+          "desc_long": "Commande gratuite /annual en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/answers",
+          "desc": "/answers — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Prépare les réponses",
+          "desc_long": "Commande gratuite /answers en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/apartment",
+          "desc": "/apartment — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Apartment",
+          "desc_long": "Commande gratuite /apartment en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/api-doc",
+          "desc": "/api-doc — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Mettre au format OpenAPI / Swagger la description des routes fournies.",
+          "desc_long": "Commande gratuite /api-doc en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/app",
+          "desc": "/app — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "App",
+          "desc_long": "Commande gratuite /app en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/arabic",
+          "desc": "/arabic — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Traduit le texte en arabe",
+          "desc_long": "Commande gratuite /arabic en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/architect",
+          "desc": "/architect — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "presentation",
+          "desc_long": "Commande gratuite /architect en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/article",
+          "desc": "/article — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Article",
+          "desc_long": "Commande gratuite /article en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/audit",
+          "desc": "/audit — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Audit",
+          "desc_long": "Commande gratuite /audit en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/auto",
+          "desc": "/auto — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "parts",
+          "desc_long": "Commande gratuite /auto en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/b-test",
+          "desc": "/b-test — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "2 options), Pre-header (30 chars), Accroche (1 phrase), Corps (probleme-solution-preuve), CTA principal, PS percutant",
+          "desc_long": "Commande gratuite /b-test en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/back-to",
+          "desc": "/back-to — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "school",
+          "desc_long": "Commande gratuite /back-to en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bags",
+          "desc": "/bags — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Bags",
+          "desc_long": "Commande gratuite /bags en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bank",
+          "desc": "/bank — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Bank",
+          "desc_long": "Commande gratuite /bank en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/brief",
+          "desc": "/brief — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Donne la reponse la plus courte",
+          "desc_long": "Commande gratuite /brief en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/calendar",
+          "desc": "/calendar — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "strategie de contenu - Cree un calendrier editorial complet de 30 jours pour [mois]",
+          "desc_long": "Commande gratuite /calendar en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/caption",
+          "desc": "/caption — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ecrit un caption attractif",
+          "desc_long": "Commande gratuite /caption en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/casual",
+          "desc": "/casual — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Rend le texte decontracte",
+          "desc_long": "Commande gratuite /casual en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/concise",
+          "desc": "/concise — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Remove filler and sharpen the message - concise",
+          "desc_long": "Commande gratuite /concise en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/content",
+          "desc": "/content — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Stratégie contenu",
+          "desc_long": "Commande gratuite /content en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cta",
+          "desc": "/cta — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Genere un appel a l action",
+          "desc_long": "Commande gratuite /cta en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/edit",
+          "desc": "/edit — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Fix grammar and awkward phrasing - edit",
+          "desc_long": "Commande gratuite /edit en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/final",
+          "desc": "/final — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Polish the copy for publication - final",
+          "desc_long": "Commande gratuite /final en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/formal",
+          "desc": "/formal — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Rend le style formel et officiel",
+          "desc_long": "Commande gratuite /formal en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/headline",
+          "desc": "/headline — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cree un titre fort",
+          "desc_long": "Commande gratuite /headline en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/hook",
+          "desc": "/hook — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cree une accroche attractive",
+          "desc_long": "Commande gratuite /hook en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/human",
+          "desc": "/human — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Human",
+          "desc_long": "Commande gratuite /human en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/list",
+          "desc": "/list — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "List - List effect / prompt",
+          "desc_long": "Commande gratuite /list en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/outline",
+          "desc": "/outline — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cree une structure organisee",
+          "desc_long": "Commande gratuite /outline en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/professional",
+          "desc": "/professional — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Rend le texte professionnel",
+          "desc_long": "Commande gratuite /professional en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/proof",
+          "desc": "/proof — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Add examples and supporting evidence - proof",
+          "desc_long": "Commande gratuite /proof en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/pros-cons",
+          "desc": "/pros-cons — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Dresser un tableau comparatif exhaustif des avantages et inconvénients.",
+          "desc_long": "Commande gratuite /pros-cons en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/reel",
+          "desc": "/reel — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cree une idee de Reel viral",
+          "desc_long": "Commande gratuite /reel en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/rewrite",
+          "desc": "/rewrite — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Reecrit le contenu completement",
+          "desc_long": "Commande gratuite /rewrite en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/role",
+          "desc": "/role — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Role - Role effect / prompt",
+          "desc_long": "Commande gratuite /role en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/script",
+          "desc": "/script — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Transforme en script video",
+          "desc_long": "Commande gratuite /script en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/short",
+          "desc": "/short — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Short - Short effect / prompt",
+          "desc_long": "Commande gratuite /short en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/simple",
+          "desc": "/simple — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Simple - Simple effect / prompt",
+          "desc_long": "Commande gratuite /simple en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/story",
+          "desc": "/story — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Transforme en histoire narrative",
+          "desc_long": "Commande gratuite /story en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/structure",
+          "desc": "/structure — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Give every paragraph a useful job - structure",
+          "desc_long": "Commande gratuite /structure en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/summarize",
+          "desc": "/summarize — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Resume le texte rapidement",
+          "desc_long": "Commande gratuite /summarize en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/table",
+          "desc": "/table — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Transforme les informations en tableau",
+          "desc_long": "Commande gratuite /table en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/tone",
+          "desc": "/tone — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Change le ton du discours",
+          "desc_long": "Commande gratuite /tone en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/translate",
+          "desc": "/translate — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Traduit le texte directement",
+          "desc_long": "Commande gratuite /translate en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/youtube",
+          "desc": "/youtube — Rédaction et écriture — Version gratuite 400, optimisée en français.",
+          "desc_short": "Youtube",
+          "desc_long": "Commande gratuite /youtube en français. Rédaction et écriture. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "label": "Code & Technique",
+      "icon": "💻",
+      "color": "#60a5fa",
+      "meta": "CLAUDE",
+      "commands": [
+        {
+          "cmd": "/a11y",
+          "desc": "/a11y — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Accessibilite WCAG",
+          "desc_long": "Commande gratuite /a11y en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/about",
+          "desc": "/about — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "copywriting de pages \"A propos\" - Redige une page \"A propos\" complete et engageante pour [entr",
+          "desc_long": "Commande gratuite /about en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/aggregate",
+          "desc": "/aggregate — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Pipeline agregation",
+          "desc_long": "Commande gratuite /aggregate en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/algorithm",
+          "desc": "/algorithm — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Algorithme optimal",
+          "desc_long": "Commande gratuite /algorithm en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/animation",
+          "desc": "/animation — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Animation fluide",
+          "desc_long": "Commande gratuite /animation en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/api",
+          "desc": "/api — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Concoit des APIs",
+          "desc_long": "Commande gratuite /api en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/api-call",
+          "desc": "/api-call — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Appel API",
+          "desc_long": "Commande gratuite /api-call en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/apispec",
+          "desc": "/apispec — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Spec API REST",
+          "desc_long": "Commande gratuite /apispec en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/assumptions",
+          "desc": "/assumptions — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "epistemologie appliquee - Identifie et analyse toutes les hypotheses cachees dans [ide",
+          "desc_long": "Commande gratuite /assumptions en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/async",
+          "desc": "/async — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "programmation asynchrone - Convertis ce code synchrone en version asynchrone propre : [",
+          "desc_long": "Commande gratuite /async en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/auth",
+          "desc": "/auth — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Authentification securisee",
+          "desc_long": "Commande gratuite /auth en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/backend",
+          "desc": "/backend — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Developpe le cote serveur",
+          "desc_long": "Commande gratuite /backend en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/backup",
+          "desc": "/backup — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "fiabilite et DRP (Disaster Recovery Plan) - Conçois la strategie de sauvegarde pour [strategie]. Inc",
+          "desc_long": "Commande gratuite /backup en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/backup-db",
+          "desc": "/backup-db — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Strategie de backup",
+          "desc_long": "Commande gratuite /backup-db en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bash",
+          "desc": "/bash — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Script bash",
+          "desc_long": "Commande gratuite /bash en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/better",
+          "desc": "/better — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Propose une meilleure version",
+          "desc_long": "Commande gratuite /better en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cache",
+          "desc": "/cache — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Stratégie cache",
+          "desc_long": "Commande gratuite /cache en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/changelog",
+          "desc": "/changelog — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Changelog",
+          "desc_long": "Commande gratuite /changelog en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/channels",
+          "desc": "/channels — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "strategie multicanale - Identifie et priorise les canaux marketing optimaux pour [ob",
+          "desc_long": "Commande gratuite /channels en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cicd",
+          "desc": "/cicd — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Pipeline CI/CD",
+          "desc_long": "Commande gratuite /cicd en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cluster",
+          "desc": "/cluster — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "architecture SEO de contenu - Cree une carte de clusters de mots-cles pour le theme [theme",
+          "desc_long": "Commande gratuite /cluster en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/comment",
+          "desc": "/comment — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Comment - Comment effect / prompt",
+          "desc_long": "Commande gratuite /comment en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/comments",
+          "desc": "/comments — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Commentaires de code",
+          "desc_long": "Commande gratuite /comments en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/component",
+          "desc": "/component — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Composant UI",
+          "desc_long": "Commande gratuite /component en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/compose",
+          "desc": "/compose — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Docker Compose",
+          "desc_long": "Commande gratuite /compose en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/compress",
+          "desc": "/compress — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "distillation de contenu - Extrait l'essence absolue de ce texte : [texte]. Contrainte ",
+          "desc_long": "Commande gratuite /compress en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/convert",
+          "desc": "/convert — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Convert - Convert effect / prompt",
+          "desc_long": "Commande gratuite /convert en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cors",
+          "desc": "/cors — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Configuration CORS",
+          "desc_long": "Commande gratuite /cors en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cron",
+          "desc": "/cron — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Tache planifiee",
+          "desc_long": "Commande gratuite /cron en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/css",
+          "desc": "/css — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "CSS/Tailwind",
+          "desc_long": "Commande gratuite /css en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/csv",
+          "desc": "/csv — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Organise en CSV",
+          "desc_long": "Commande gratuite /csv en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/datamodel",
+          "desc": "/datamodel — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Modele de donnees",
+          "desc_long": "Commande gratuite /datamodel en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/debug",
+          "desc": "/debug — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "Trouve et corrige les erreurs",
+          "desc_long": "Commande gratuite /debug en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/decouple",
+          "desc": "/decouple — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "architecture logicielle et design patterns - Reduis le couplage entre composants dans ce code : [cod",
+          "desc_long": "Commande gratuite /decouple en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/tradeoffs",
+          "desc": "/tradeoffs — Programmation et développement — Version gratuite 400, optimisée en français.",
+          "desc_short": "analyse des compromis - Explique tous les tradeoffs impliques dans [decision]. Pour ",
+          "desc_long": "Commande gratuite /tradeoffs en français. Programmation et développement. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "datascience",
+      "label": "Data Science & IA",
+      "icon": "🔬",
+      "color": "#84cc16",
+      "meta": "CLAUDE",
+      "commands": [
+        {
+          "cmd": "/ai-safety",
+          "desc": "/ai-safety — Science des données et IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "AI Safety",
+          "desc_long": "Commande gratuite /ai-safety en français. Science des données et IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/dataaction",
+          "desc": "/dataaction — Science des données et IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Turn this data into practical decisions",
+          "desc_long": "Commande gratuite /dataaction en français. Science des données et IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "label": "Apprentissage & Formation",
+      "icon": "🎓",
+      "color": "#fbbf24",
+      "meta": "CLAUDE",
+      "commands": [
+        {
+          "cmd": "/adapt",
+          "desc": "/adapt — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Adapte a un profil",
+          "desc_long": "Commande gratuite /adapt en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/addie",
+          "desc": "/addie — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Modele ADDIE",
+          "desc_long": "Commande gratuite /addie en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/advanced",
+          "desc": "/advanced — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Version experte",
+          "desc_long": "Commande gratuite /advanced en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/agenda",
+          "desc": "/agenda — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Agenda de formation",
+          "desc_long": "Commande gratuite /agenda en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/assess",
+          "desc": "/assess — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "evaluation comprehensive de situations complexes - Evalue [situation] de façon complete et nuancee. ",
+          "desc_long": "Commande gratuite /assess en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/auditory",
+          "desc": "/auditory — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Apprenants auditifs",
+          "desc_long": "Commande gratuite /auditory en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/backward",
+          "desc": "/backward — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Conception a rebours",
+          "desc_long": "Commande gratuite /backward en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/beginner",
+          "desc": "/beginner — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Version debutant",
+          "desc_long": "Commande gratuite /beginner en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/blended",
+          "desc": "/blended — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Blended learning",
+          "desc_long": "Commande gratuite /blended en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bloom",
+          "desc": "/bloom — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Taxonomie de Bloom",
+          "desc_long": "Commande gratuite /bloom en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/case",
+          "desc": "/case — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Étude de cas\t/case gestion hôtelière",
+          "desc_long": "Commande gratuite /case en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/casestudy",
+          "desc": "/casestudy — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Etude de cas pratique",
+          "desc_long": "Commande gratuite /casestudy en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/catalog",
+          "desc": "/catalog — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Fiche catalogue",
+          "desc_long": "Commande gratuite /catalog en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/checkout",
+          "desc": "/checkout — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cloture de session",
+          "desc_long": "Commande gratuite /checkout en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/closing",
+          "desc": "/closing — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "techniques de closing (closing ethique) - Propose 5 techniques de closing adaptees a [contexte]. Pou",
+          "desc_long": "Commande gratuite /closing en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/context",
+          "desc": "/context — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Contexte organisationnel",
+          "desc_long": "Commande gratuite /context en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/debrief",
+          "desc": "/debrief — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Questions de debrief",
+          "desc_long": "Commande gratuite /debrief en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/defi",
+          "desc": "/defi — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Defi progressif",
+          "desc_long": "Commande gratuite /defi en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/prioritize",
+          "desc": "/prioritize — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "priorisation strategique - Priorise cette liste [liste] avec une methode rigoureuse. Ap",
+          "desc_long": "Commande gratuite /prioritize en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/quiz",
+          "desc": "/quiz — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Teste les connaissances",
+          "desc_long": "Commande gratuite /quiz en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/study",
+          "desc": "/study — Apprentissage et formation — Version gratuite 400, optimisée en français.",
+          "desc_short": "Prepare pour l etude",
+          "desc_long": "Commande gratuite /study en français. Apprentissage et formation. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "label": "Legal, Compliance & Administratif",
+      "icon": "⚖️",
+      "color": "#ef4444",
+      "meta": "CLAUDE",
+      "commands": [
+        {
+          "cmd": "/aml-kyc",
+          "desc": "/aml-kyc — Juridique et droit — Version gratuite 400, optimisée en français.",
+          "desc_short": "Anti-blanchiment KYC",
+          "desc_long": "Commande gratuite /aml-kyc en français. Juridique et droit. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "thinking",
+      "label": "Reflexion & Analyse",
+      "icon": "🧠",
+      "color": "#22d3ee",
+      "meta": "CLAUDE",
+      "commands": [
+        {
+          "cmd": "/5whys",
+          "desc": "/5whys — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Investigate the problem using the 5 Whys method",
+          "desc_long": "Commande gratuite /5whys en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/X10THINK",
+          "desc": "/X10THINK — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Pense 10x plus profondement",
+          "desc_long": "Commande gratuite /X10THINK en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/academic",
+          "desc": "/academic — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "ecriture academique (style APA/Chicago) - Transforme ce texte en version academique rigoureuse : [te",
+          "desc_long": "Commande gratuite /academic en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adopt",
+          "desc": "/adopt — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Adopt - Adopt effect / prompt",
+          "desc_long": "Commande gratuite /adopt en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/align",
+          "desc": "/align — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Align - Align effect / prompt",
+          "desc_long": "Commande gratuite /align en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/analogy",
+          "desc": "/analogy — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Explique par une analogie",
+          "desc_long": "Commande gratuite /analogy en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/analyze",
+          "desc": "/analyze — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Analyse la situation en profondeur",
+          "desc_long": "Commande gratuite /analyze en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bestcase",
+          "desc": "/bestcase — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Bestcase - Bestcase effect / prompt",
+          "desc_long": "Commande gratuite /bestcase en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/blackswan",
+          "desc": "/blackswan — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Evenements rares a impact extreme",
+          "desc_long": "Commande gratuite /blackswan en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/challenge",
+          "desc": "/challenge — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Defie tes suppositions actuelles",
+          "desc_long": "Commande gratuite /challenge en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/check",
+          "desc": "/check — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Vérifie\t/check mon raisonnement",
+          "desc_long": "Commande gratuite /check en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/compare",
+          "desc": "/compare — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Compare les options cote a cote",
+          "desc_long": "Commande gratuite /compare en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/consensus",
+          "desc": "/consensus — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Trouve le terrain commun",
+          "desc_long": "Commande gratuite /consensus en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/consultant",
+          "desc": "/consultant — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Conseil style cabinet senior",
+          "desc_long": "Commande gratuite /consultant en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/counter",
+          "desc": "/counter — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "dialectique et argumentation critique - Genere les contre-arguments les plus solides possibles contr",
+          "desc_long": "Commande gratuite /counter en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/critic",
+          "desc": "/critic — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Find weaknesses and flaws - critic mode",
+          "desc_long": "Commande gratuite /critic en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/critique",
+          "desc": "/critique — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Critique l idee honnetement",
+          "desc_long": "Commande gratuite /critique en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/debate",
+          "desc": "/debate — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Presente les deux cotes",
+          "desc_long": "Commande gratuite /debate en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/decide",
+          "desc": "/decide — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Framework de decision structure",
+          "desc_long": "Commande gratuite /decide en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/decision",
+          "desc": "/decision — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "prise de decision collective - Facilite une prise de decision de groupe sur [decision]. Met",
+          "desc_long": "Commande gratuite /decision en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/decode",
+          "desc": "/decode — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Simplify complicated information",
+          "desc_long": "Commande gratuite /decode en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/deepdive",
+          "desc": "/deepdive — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Approfondit le sujet en profondeur",
+          "desc_long": "Commande gratuite /deepdive en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/devilsadvocate",
+          "desc": "/devilsadvocate — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Presente l opinion contraire",
+          "desc_long": "Commande gratuite /devilsadvocate en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/factcheck",
+          "desc": "/factcheck — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "verification des faits - Verifie rigoureusement [affirmation]. Methode : 1) Formule l",
+          "desc_long": "Commande gratuite /factcheck en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/firstprinciples",
+          "desc": "/firstprinciples — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Decompose aux verites fondamentales",
+          "desc_long": "Commande gratuite /firstprinciples en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/gapanalysis",
+          "desc": "/gapanalysis — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Identify the gap between where I am and where I want to be",
+          "desc_long": "Commande gratuite /gapanalysis en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/insight",
+          "desc": "/insight — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Extrait les insights",
+          "desc_long": "Commande gratuite /insight en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/logic",
+          "desc": "/logic — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Vérifie le raisonnement et la logique - logic check",
+          "desc_long": "Commande gratuite /logic en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/longgame",
+          "desc": "/longgame — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Longgame - Longgame effect / prompt",
+          "desc_long": "Commande gratuite /longgame en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/patternfinder",
+          "desc": "/patternfinder — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Identify important patterns and recurring themes",
+          "desc_long": "Commande gratuite /patternfinder en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/planner",
+          "desc": "/planner — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Planner - Planner effect / prompt",
+          "desc_long": "Commande gratuite /planner en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/proscons",
+          "desc": "/proscons — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Compare avantages et inconvenients",
+          "desc_long": "Commande gratuite /proscons en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/reframe",
+          "desc": "/reframe — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Presente sous un angle different",
+          "desc_long": "Commande gratuite /reframe en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/researcher",
+          "desc": "/researcher — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Investigate this topic and summarize findings",
+          "desc_long": "Commande gratuite /researcher en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/risks",
+          "desc": "/risks — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "identification et gestion des risques - Inventorie exhaustivement tous les risques de [projet]. Cate",
+          "desc_long": "Commande gratuite /risks en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/rootcause",
+          "desc": "/rootcause — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Remonte a la cause racine",
+          "desc_long": "Commande gratuite /rootcause en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/scorecard",
+          "desc": "/scorecard — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Evaluate this using a clear scoring system",
+          "desc_long": "Commande gratuite /scorecard en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/swot",
+          "desc": "/swot — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Analyse SWOT complete",
+          "desc_long": "Commande gratuite /swot en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/time",
+          "desc": "/time — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Time - Time effect / prompt",
+          "desc_long": "Commande gratuite /time en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/verify",
+          "desc": "/verify — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Verifie les informations",
+          "desc_long": "Commande gratuite /verify en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/worstcase",
+          "desc": "/worstcase — Réflexion et analyse — Version gratuite 400, optimisée en français.",
+          "desc_short": "Worstcase - Worstcase effect / prompt",
+          "desc_long": "Commande gratuite /worstcase en français. Réflexion et analyse. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "ads",
+      "label": "Publicite & Ads Digitaux",
+      "icon": "📣",
+      "color": "#f59e0b",
+      "meta": "COMM",
+      "commands": [
+        {
+          "cmd": "/ad",
+          "desc": "/ad — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Social Media ad - ad design",
+          "desc_long": "Commande gratuite /ad en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adangle",
+          "desc": "/adangle — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "5 angles publicitaires distincts",
+          "desc_long": "Commande gratuite /adangle en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adbudget",
+          "desc": "/adbudget — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Allocation budget publicitaire",
+          "desc_long": "Commande gratuite /adbudget en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adcopy",
+          "desc": "/adcopy — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Copy publicitaire persuasif",
+          "desc_long": "Commande gratuite /adcopy en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adcta",
+          "desc": "/adcta — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Call-to-action publicitaire",
+          "desc_long": "Commande gratuite /adcta en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adformat",
+          "desc": "/adformat — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Choix format selon canal",
+          "desc_long": "Commande gratuite /adformat en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adholiday",
+          "desc": "/adholiday — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Campagne fete/evenement",
+          "desc_long": "Commande gratuite /adholiday en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adhook",
+          "desc": "/adhook — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Hook publicitaire pour stopper scroll",
+          "desc_long": "Commande gratuite /adhook en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/admetrics",
+          "desc": "/admetrics — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "KPIs publicitaires (CTR, CPC, ROAS)",
+          "desc_long": "Commande gratuite /admetrics en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/admusic",
+          "desc": "/admusic — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Recommandation musicale pour pub",
+          "desc_long": "Commande gratuite /admusic en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adpersona",
+          "desc": "/adpersona — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Persona pour campagne ads",
+          "desc_long": "Commande gratuite /adpersona en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adproof",
+          "desc": "/adproof — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Preuve sociale dans pub",
+          "desc_long": "Commande gratuite /adproof en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adramadan",
+          "desc": "/adramadan — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Campagne Ramadan",
+          "desc_long": "Commande gratuite /adramadan en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adreport",
+          "desc": "/adreport — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Rapport de campagne ads",
+          "desc_long": "Commande gratuite /adreport en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adscaling",
+          "desc": "/adscaling — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Scaling campagne gagnante",
+          "desc_long": "Commande gratuite /adscaling en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adscript",
+          "desc": "/adscript — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Script video publicitaire",
+          "desc_long": "Commande gratuite /adscript en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adtest",
+          "desc": "/adtest — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Plan A/B test publicitaire",
+          "desc_long": "Commande gratuite /adtest en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adurgency",
+          "desc": "/adurgency — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Urgence ethique dans pub",
+          "desc_long": "Commande gratuite /adurgency en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/adusp",
+          "desc": "/adusp — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "USP pour publicite",
+          "desc_long": "Commande gratuite /adusp en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/advisual",
+          "desc": "/advisual — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Direction artistique pour pub",
+          "desc_long": "Commande gratuite /advisual en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/applestyle",
+          "desc": "/applestyle — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Minimal refined ad - Apple style",
+          "desc_long": "Commande gratuite /applestyle en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/facebookad",
+          "desc": "/facebookad — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Facebook Ads haute conversion",
+          "desc_long": "Commande gratuite /facebookad en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/googlead",
+          "desc": "/googlead — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Google Search Ads",
+          "desc_long": "Commande gratuite /googlead en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/instagramad",
+          "desc": "/instagramad — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Instagram Ad engageant",
+          "desc_long": "Commande gratuite /instagramad en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/metaad",
+          "desc": "/metaad — Publicité et copywriting — Version gratuite 400, optimisée en français.",
+          "desc_short": "Création d'un visuel adapté aux Meta Ads",
+          "desc_long": "Commande gratuite /metaad en français. Publicité et copywriting. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Comptabilite",
+      "icon": "💰",
+      "color": "#10b981",
+      "meta": "COMM",
+      "commands": [
+        {
+          "cmd": "/cap-table",
+          "desc": "/cap-table — Finance et gestion — Version gratuite 400, optimisée en français.",
+          "desc_short": "Table de capitalisation",
+          "desc_long": "Commande gratuite /cap-table en français. Finance et gestion. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "label": "Marketing & Croissance",
+      "icon": "📊",
+      "color": "#a855f7",
+      "meta": "COMM",
+      "commands": [
+        {
+          "cmd": "/abandonedcart",
+          "desc": "/abandonedcart — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Panier abandonne",
+          "desc_long": "Commande gratuite /abandonedcart en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/abtest",
+          "desc": "/abtest — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "A/B tests",
+          "desc_long": "Commande gratuite /abtest en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bio",
+          "desc": "/bio — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "personal branding et copywriting de bio - Redige 5 variantes de bio pour [marque ou personne] adapte",
+          "desc_long": "Commande gratuite /bio en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/brand",
+          "desc": "/brand — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Brand - Brand effect / prompt",
+          "desc_long": "Commande gratuite /brand en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/brandboard",
+          "desc": "/brandboard — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Membuat papan identitas merek secara visual - brand board",
+          "desc_long": "Commande gratuite /brandboard en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/branding",
+          "desc": "/branding — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Strategie branding",
+          "desc_long": "Commande gratuite /branding en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/brandpositioning",
+          "desc": "/brandpositioning — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Positionnement de marque",
+          "desc_long": "Commande gratuite /brandpositioning en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/brandvoice",
+          "desc": "/brandvoice — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Voix de marque",
+          "desc_long": "Commande gratuite /brandvoice en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/coldcall",
+          "desc": "/coldcall — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cold call script",
+          "desc_long": "Commande gratuite /coldcall en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/coldemail",
+          "desc": "/coldemail — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cold email",
+          "desc_long": "Commande gratuite /coldemail en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/copywriter",
+          "desc": "/copywriter — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Copywriting marketing",
+          "desc_long": "Commande gratuite /copywriter en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/crossell",
+          "desc": "/crossell — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Identify relevant cross-selling opportunities",
+          "desc_long": "Commande gratuite /crossell en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/growthhack",
+          "desc": "/growthhack — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Growth hacks creatifs",
+          "desc_long": "Commande gratuite /growthhack en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/growthstrategy",
+          "desc": "/growthstrategy — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Strategie de croissance",
+          "desc_long": "Commande gratuite /growthstrategy en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/leadgen",
+          "desc": "/leadgen — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Generation de leads",
+          "desc_long": "Commande gratuite /leadgen en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/leadmagnet",
+          "desc": "/leadmagnet — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Aimant a leads",
+          "desc_long": "Commande gratuite /leadmagnet en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/marketingmetrics",
+          "desc": "/marketingmetrics — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "KPIs marketing",
+          "desc_long": "Commande gratuite /marketingmetrics en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/marketingplan",
+          "desc": "/marketingplan — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Plan marketing etape par etape",
+          "desc_long": "Commande gratuite /marketingplan en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/marketingstrategy",
+          "desc": "/marketingstrategy — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Strategie marketing complete",
+          "desc_long": "Commande gratuite /marketingstrategy en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/prospecting",
+          "desc": "/prospecting — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Prospection",
+          "desc_long": "Commande gratuite /prospecting en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/referral",
+          "desc": "/referral — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Programme de parrainage",
+          "desc_long": "Commande gratuite /referral en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/retention",
+          "desc": "/retention — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Retention client",
+          "desc_long": "Commande gratuite /retention en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/salesfunnel",
+          "desc": "/salesfunnel — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Tunnel de vente",
+          "desc_long": "Commande gratuite /salesfunnel en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/salespitch",
+          "desc": "/salespitch — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Pitch de vente",
+          "desc_long": "Commande gratuite /salespitch en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/salesstrategy",
+          "desc": "/salesstrategy — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Strategie de vente pratique",
+          "desc_long": "Commande gratuite /salesstrategy en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/upsell",
+          "desc": "/upsell — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Upselling",
+          "desc_long": "Commande gratuite /upsell en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/usp",
+          "desc": "/usp — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Unique Selling Proposition",
+          "desc_long": "Commande gratuite /usp en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/valueproposition",
+          "desc": "/valueproposition — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Proposition de valeur",
+          "desc_long": "Commande gratuite /valueproposition en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/winback",
+          "desc": "/winback — Marketing et stratégie commerciale — Version gratuite 400, optimisée en français.",
+          "desc_short": "Campagne winback",
+          "desc_long": "Commande gratuite /winback en français. Marketing et stratégie commerciale. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "ooh-ads",
+      "label": "Publicite Visuelle & OOH",
+      "icon": "🏙️",
+      "color": "#f97316",
+      "meta": "COMM",
+      "commands": [
+        {
+          "cmd": "/3d billboard",
+          "desc": "/3d billboard — Publicité extérieure et affichage — Version gratuite 400, optimisée en français.",
+          "desc_short": "Billboard 3D en perspective realiste",
+          "desc_long": "Commande gratuite /3d billboard en français. Publicité extérieure et affichage. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/amazon-ad",
+          "desc": "/amazon-ad — Publicité extérieure et affichage — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite Amazon Sponsored",
+          "desc_long": "Commande gratuite /amazon-ad en français. Publicité extérieure et affichage. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/ar-ad",
+          "desc": "/ar-ad — Publicité extérieure et affichage — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite en realite augmentee",
+          "desc_long": "Commande gratuite /ar-ad en français. Publicité extérieure et affichage. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/billboard",
+          "desc": "/billboard — Publicité extérieure et affichage — Version gratuite 400, optimisée en français.",
+          "desc_short": "Panneau publicitaire classique",
+          "desc_long": "Commande gratuite /billboard en français. Publicité extérieure et affichage. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cafe-ad",
+          "desc": "/cafe-ad — Publicité extérieure et affichage — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite dans un cafe",
+          "desc_long": "Commande gratuite /cafe-ad en français. Publicité extérieure et affichage. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "sector-ads",
+      "label": "Publicite Sectorielle",
+      "icon": "🎯",
+      "color": "#dc2626",
+      "meta": "COMM",
+      "commands": [
+        {
+          "cmd": "/3d-render",
+          "desc": "/3d-render — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Rendu 3D architectural",
+          "desc_long": "Commande gratuite /3d-render en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/academy",
+          "desc": "/academy — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Academie",
+          "desc_long": "Commande gratuite /academy en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/ads",
+          "desc": "/ads — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Annonces publicitaires",
+          "desc_long": "Commande gratuite /ads en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/ai-ad",
+          "desc": "/ai-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite IA",
+          "desc_long": "Commande gratuite /ai-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/app-ad",
+          "desc": "/app-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite app",
+          "desc_long": "Commande gratuite /app-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/audit-ad",
+          "desc": "/audit-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite audit",
+          "desc_long": "Commande gratuite /audit-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/awareness",
+          "desc": "/awareness — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite notoriete",
+          "desc_long": "Commande gratuite /awareness en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/babyscale",
+          "desc": "/babyscale — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Babyscale - Babyscale effect / prompt",
+          "desc_long": "Commande gratuite /babyscale en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bags-ad",
+          "desc": "/bags-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite sacs",
+          "desc_long": "Commande gratuite /bags-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bakery",
+          "desc": "/bakery — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Boulangerie",
+          "desc_long": "Commande gratuite /bakery en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bank-ad",
+          "desc": "/bank-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite banque",
+          "desc_long": "Commande gratuite /bank-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/barber",
+          "desc": "/barber — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Barbier",
+          "desc_long": "Commande gratuite /barber en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/beach-ad",
+          "desc": "/beach-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite plage",
+          "desc_long": "Commande gratuite /beach-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/beauty",
+          "desc": "/beauty — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Beauty",
+          "desc_long": "Commande gratuite /beauty en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/beauty-ad",
+          "desc": "/beauty-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite beaute",
+          "desc_long": "Commande gratuite /beauty-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bodycare",
+          "desc": "/bodycare — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Soin corps",
+          "desc_long": "Commande gratuite /bodycare en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/booking",
+          "desc": "/booking — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Reservation",
+          "desc_long": "Commande gratuite /booking en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bootcamp",
+          "desc": "/bootcamp — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Bootcamp",
+          "desc_long": "Commande gratuite /bootcamp en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/brand-ad",
+          "desc": "/brand-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite de marque",
+          "desc_long": "Commande gratuite /brand-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/brandbook",
+          "desc": "/brandbook — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Charte de marque",
+          "desc_long": "Commande gratuite /brandbook en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/brochure",
+          "desc": "/brochure — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Brochure",
+          "desc_long": "Commande gratuite /brochure en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bundle",
+          "desc": "/bundle — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Offre bundle",
+          "desc_long": "Commande gratuite /bundle en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/burger",
+          "desc": "/burger — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Burger",
+          "desc_long": "Commande gratuite /burger en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cafe",
+          "desc": "/cafe — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cafe",
+          "desc_long": "Commande gratuite /cafe en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/car",
+          "desc": "/car — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Car",
+          "desc_long": "Commande gratuite /car en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/car-ad",
+          "desc": "/car-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite voiture",
+          "desc_long": "Commande gratuite /car-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/car-sale",
+          "desc": "/car-sale — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Vente voiture",
+          "desc_long": "Commande gratuite /car-sale en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/catering",
+          "desc": "/catering — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Traiteur",
+          "desc_long": "Commande gratuite /catering en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/change-bg",
+          "desc": "/change-bg — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Changer arriere-plan",
+          "desc_long": "Commande gratuite /change-bg en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/chef",
+          "desc": "/chef — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Chef cuisinier",
+          "desc_long": "Commande gratuite /chef en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/city-ad",
+          "desc": "/city-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite ville",
+          "desc_long": "Commande gratuite /city-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/clinic-ad",
+          "desc": "/clinic-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite clinique",
+          "desc_long": "Commande gratuite /clinic-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/clothing",
+          "desc": "/clothing — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Vetements",
+          "desc_long": "Commande gratuite /clothing en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cloud-ad",
+          "desc": "/cloud-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite cloud",
+          "desc_long": "Commande gratuite /cloud-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/comic-ad",
+          "desc": "/comic-ad — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Publicite BD",
+          "desc_long": "Commande gratuite /comic-ad en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/localsign",
+          "desc": "/localsign — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Reimagine brand name as colourful hand-painted Indian shop-sign lettering",
+          "desc_long": "Commande gratuite /localsign en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/mascotmood",
+          "desc": "/mascotmood — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Create an original mascot inspired by product and feature it across campaign",
+          "desc_long": "Commande gratuite /mascotmood en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/offer",
+          "desc": "/offer — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Offre speciale",
+          "desc_long": "Commande gratuite /offer en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/poster",
+          "desc": "/poster — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Poster",
+          "desc_long": "Commande gratuite /poster en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/product-hero",
+          "desc": "/product-hero — Publicités par secteur d’activité — Version gratuite 400, optimisée en français.",
+          "desc_short": "Produit hero",
+          "desc_long": "Commande gratuite /product-hero en français. Publicités par secteur d’activité. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "cinema",
+      "label": "Cinematique & Video",
+      "icon": "🎬",
+      "color": "#dc2626",
+      "meta": "GEMINI_FLOW",
+      "commands": [
+        {
+          "cmd": "/360orbit",
+          "desc": "/360orbit — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Rotation 360 degres",
+          "desc_long": "Commande gratuite /360orbit en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/70scinema",
+          "desc": "/70scinema — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Warm textured cinema - 70s cinema",
+          "desc_long": "Commande gratuite /70scinema en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/80saction",
+          "desc": "/80saction — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Bold heroic action - 80s action",
+          "desc_long": "Commande gratuite /80saction en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/aerialview",
+          "desc": "/aerialview — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "High-altitude aerial view - high altitude perspective",
+          "desc_long": "Commande gratuite /aerialview en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/anamorphic",
+          "desc": "/anamorphic — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Widescreen lens feel - anamorphic",
+          "desc_long": "Commande gratuite /anamorphic en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/audiomix",
+          "desc": "/audiomix — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Mixage audio",
+          "desc_long": "Commande gratuite /audiomix en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/birdsview",
+          "desc": "/birdsview — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Overhead top view looks clean & cinematic - birds view",
+          "desc_long": "Commande gratuite /birdsview en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/broll",
+          "desc": "/broll — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Suggest a lot of b-roll footage",
+          "desc_long": "Commande gratuite /broll en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cam-drone",
+          "desc": "/cam-drone — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Pengambilan gambar dari udara - drone shot",
+          "desc_long": "Commande gratuite /cam-drone en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cam-fpv",
+          "desc": "/cam-fpv — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Sudut pandang orang pertama FPV - first person view",
+          "desc_long": "Commande gratuite /cam-fpv en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cam-orbit",
+          "desc": "/cam-orbit — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Putaran 360° mengelilingi subjek - orbit 360",
+          "desc_long": "Commande gratuite /cam-orbit en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cam-tracking",
+          "desc": "/cam-tracking — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ikuti gerakan subjek - tracking shot",
+          "desc_long": "Commande gratuite /cam-tracking en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/droneview",
+          "desc": "/droneview — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Perspective drone aeree",
+          "desc_long": "Commande gratuite /droneview en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/filmgrain",
+          "desc": "/filmgrain — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cinematic analog film texture",
+          "desc_long": "Commande gratuite /filmgrain en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/freezeaction",
+          "desc": "/freezeaction — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Gel action rapide",
+          "desc_long": "Commande gratuite /freezeaction en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/highangle",
+          "desc": "/highangle — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Camera looking down at the subject",
+          "desc_long": "Commande gratuite /highangle en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/lowangle",
+          "desc": "/lowangle — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Dramatic camera angle from below",
+          "desc_long": "Commande gratuite /lowangle en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/motionblur",
+          "desc": "/motionblur — Vidéo et cinéma IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Flou de mouvement",
+          "desc_long": "Commande gratuite /motionblur en français. Vidéo et cinéma IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "effects",
+      "label": "Effets Speciaux",
+      "icon": "✨",
+      "color": "#818cf8",
+      "meta": "GEMINI_FLOW",
+      "commands": [
+        {
+          "cmd": "/add-fog",
+          "desc": "/add-fog — Effets visuels — Version gratuite 400, optimisée en français.",
+          "desc_short": "Kabut tipis di bagian bawah - add fog",
+          "desc_long": "Commande gratuite /add-fog en français. Effets visuels. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/aftermath",
+          "desc": "/aftermath — Effets visuels — Version gratuite 400, optimisée en français.",
+          "desc_short": "Monde en ruines",
+          "desc_long": "Commande gratuite /aftermath en français. Effets visuels. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/aging",
+          "desc": "/aging — Effets visuels — Version gratuite 400, optimisée en français.",
+          "desc_short": "Passage decennies",
+          "desc_long": "Commande gratuite /aging en français. Effets visuels. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/blueprint",
+          "desc": "/blueprint — Effets visuels — Version gratuite 400, optimisée en français.",
+          "desc_short": "Plan technique",
+          "desc_long": "Commande gratuite /blueprint en français. Effets visuels. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bokeh",
+          "desc": "/bokeh — Effets visuels — Version gratuite 400, optimisée en français.",
+          "desc_short": "soft blurred background lights",
+          "desc_long": "Commande gratuite /bokeh en français. Effets visuels. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/doubleexposure",
+          "desc": "/doubleexposure — Effets visuels — Version gratuite 400, optimisée en français.",
+          "desc_short": "Two images blended into one composition",
+          "desc_long": "Commande gratuite /doubleexposure en français. Effets visuels. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/dreamcore",
+          "desc": "/dreamcore — Effets visuels — Version gratuite 400, optimisée en français.",
+          "desc_short": "Surreal, dreamlike, slightly uncanny aesthetic",
+          "desc_long": "Commande gratuite /dreamcore en français. Effets visuels. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/fire",
+          "desc": "/fire — Effets visuels — Version gratuite 400, optimisée en français.",
+          "desc_short": "Feu et flammes",
+          "desc_long": "Commande gratuite /fire en français. Effets visuels. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/glitch",
+          "desc": "/glitch — Effets visuels — Version gratuite 400, optimisée en français.",
+          "desc_short": "Effet glitch numerique",
+          "desc_long": "Commande gratuite /glitch en français. Effets visuels. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/holographic",
+          "desc": "/holographic — Effets visuels — Version gratuite 400, optimisée en français.",
+          "desc_short": "Futuristic holographic material effect",
+          "desc_long": "Commande gratuite /holographic en français. Effets visuels. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/portal",
+          "desc": "/portal — Effets visuels — Version gratuite 400, optimisée en français.",
+          "desc_short": "Vortex dimensionnel",
+          "desc_long": "Commande gratuite /portal en français. Effets visuels. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "image",
+      "label": "Image & Visuel",
+      "icon": "🖼️",
+      "color": "#e879f9",
+      "meta": "GEMINI_FLOW",
+      "commands": [
+        {
+          "cmd": "/35mmfilm",
+          "desc": "/35mmfilm — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "35mm film look - analog film style",
+          "desc_long": "Commande gratuite /35mmfilm en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/3drender",
+          "desc": "/3drender — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Convertit en 3D",
+          "desc_long": "Commande gratuite /3drender en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/4k",
+          "desc": "/4k — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Version haute definition",
+          "desc_long": "Commande gratuite /4k en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/8k",
+          "desc": "/8k — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ultra-haute definition",
+          "desc_long": "Commande gratuite /8k en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/add",
+          "desc": "/add — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Add new elements naturally to the image",
+          "desc_long": "Commande gratuite /add en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/aerial",
+          "desc": "/aerial — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Perspective aérienne",
+          "desc_long": "Commande gratuite /aerial en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/airport",
+          "desc": "/airport — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Airport - Airport effect / prompt",
+          "desc_long": "Commande gratuite /airport en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/amazon",
+          "desc": "/amazon — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Photo produit style Amazon",
+          "desc_long": "Commande gratuite /amazon en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/anime",
+          "desc": "/anime — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Anime / manga style",
+          "desc_long": "Commande gratuite /anime en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/announce",
+          "desc": "/announce — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "communication interne d'entreprise - Redige une annonce interne pour [info]. Structure : titre (c",
+          "desc_long": "Commande gratuite /announce en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/archive",
+          "desc": "/archive — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Restaure caractere historique",
+          "desc_long": "Commande gratuite /archive en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/autumn",
+          "desc": "/autumn — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Autumn - Autumn effect / prompt",
+          "desc_long": "Commande gratuite /autumn en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/backlight",
+          "desc": "/backlight — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Glow from behind - backlight effect",
+          "desc_long": "Commande gratuite /backlight en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/backlog",
+          "desc": "/backlog — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Product backlog",
+          "desc_long": "Commande gratuite /backlog en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/banner",
+          "desc": "/banner — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Banniere promotionnelle",
+          "desc_long": "Commande gratuite /banner en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/beach-bg",
+          "desc": "/beach-bg — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Fond plage realiste",
+          "desc_long": "Commande gratuite /beach-bg en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bluehour",
+          "desc": "/bluehour — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cool twilight mood - blue hour lighting",
+          "desc_long": "Commande gratuite /bluehour en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bluelight",
+          "desc": "/bluelight — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Bluelight - Bluelight effect / prompt",
+          "desc_long": "Commande gratuite /bluelight en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/blur-bg",
+          "desc": "/blur-bg — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Flou d arriere-plan bokeh",
+          "desc_long": "Commande gratuite /blur-bg en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bokel",
+          "desc": "/bokel — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Bokel - Bokel effect / prompt",
+          "desc_long": "Commande gratuite /bokel en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/breathe",
+          "desc": "/breathe — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "lisibilite et rythme editorial - Allege ce texte dense : [texte]. Techniques : coupe les phra",
+          "desc_long": "Commande gratuite /breathe en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bridge",
+          "desc": "/bridge — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Bridge - Bridge effect / prompt",
+          "desc_long": "Commande gratuite /bridge en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bright",
+          "desc": "/bright — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ameliore la luminosite",
+          "desc_long": "Commande gratuite /bright en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/brighten",
+          "desc": "/brighten — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Increase brightness of the image",
+          "desc_long": "Commande gratuite /brighten en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/career",
+          "desc": "/career — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Stratégie carrière",
+          "desc_long": "Commande gratuite /career en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cartoon",
+          "desc": "/cartoon — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Convertit en cartoon",
+          "desc_long": "Commande gratuite /cartoon en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/castle",
+          "desc": "/castle — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Castle - Castle effect / prompt",
+          "desc_long": "Commande gratuite /castle en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/chrome",
+          "desc": "/chrome — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Aspect métallique/chromé",
+          "desc_long": "Commande gratuite /chrome en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cinematic",
+          "desc": "/cinematic — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Traitement photo style cinema",
+          "desc_long": "Commande gratuite /cinematic en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cityscape",
+          "desc": "/cityscape — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cityscape background - city skyline",
+          "desc_long": "Commande gratuite /cityscape en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/colorize",
+          "desc": "/colorize — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Colorise noir et blanc",
+          "desc_long": "Commande gratuite /colorize en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cyberpunk",
+          "desc": "/cyberpunk — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Neon cyberpunk aesthetic - cyberpunk style",
+          "desc_long": "Commande gratuite /cyberpunk en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/dreamlogic",
+          "desc": "/dreamlogic — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Surreal but coherent - dream logic",
+          "desc_long": "Commande gratuite /dreamlogic en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/editorial",
+          "desc": "/editorial — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Photo editoriale magazine",
+          "desc_long": "Commande gratuite /editorial en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/enhance",
+          "desc": "/enhance — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Ameliore la qualite globale",
+          "desc_long": "Commande gratuite /enhance en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/fashion",
+          "desc": "/fashion — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Apparence editoriale mode",
+          "desc_long": "Commande gratuite /fashion en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/floatingproduct",
+          "desc": "/floatingproduct — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Product suspended cleanly - floating product",
+          "desc_long": "Commande gratuite /floatingproduct en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/forest",
+          "desc": "/forest — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Forest background - forest environment",
+          "desc_long": "Commande gratuite /forest en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/goldenhour",
+          "desc": "/goldenhour — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Lumiere doree fin de journee",
+          "desc_long": "Commande gratuite /goldenhour en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/gravityoff",
+          "desc": "/gravityoff — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Objects float naturally - gravity off surreal effect",
+          "desc_long": "Commande gratuite /gravityoff en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/hardlight",
+          "desc": "/hardlight — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Crisp graphic shadows - hard light with sharp shadows",
+          "desc_long": "Commande gratuite /hardlight en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/impossibleangle",
+          "desc": "/impossibleangle — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Impossible camera view - Break reality in a believable way",
+          "desc_long": "Commande gratuite /impossibleangle en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/isometric",
+          "desc": "/isometric — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Geometric 3/4 view stylized clean modern look - isometric",
+          "desc_long": "Commande gratuite /isometric en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/longexposure",
+          "desc": "/longexposure — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Long exposure - light trails and motion blur",
+          "desc_long": "Commande gratuite /longexposure en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/luxury",
+          "desc": "/luxury — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "fashion",
+          "desc_long": "Commande gratuite /luxury en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/macroproduct",
+          "desc": "/macroproduct — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Extreme surface detail - macro product",
+          "desc_long": "Commande gratuite /macroproduct en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/minimalist",
+          "desc": "/minimalist — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Minimalist clean style",
+          "desc_long": "Commande gratuite /minimalist en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/mirrorworld",
+          "desc": "/mirrorworld — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Alternate mirrored reality - mirror world effect",
+          "desc_long": "Commande gratuite /mirrorworld en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/mountains",
+          "desc": "/mountains — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Mountains background",
+          "desc_long": "Commande gratuite /mountains en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/noir",
+          "desc": "/noir — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Noir et blanc dramatique",
+          "desc_long": "Commande gratuite /noir en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/oilpainting",
+          "desc": "/oilpainting — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Classic oil painting style",
+          "desc_long": "Commande gratuite /oilpainting en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/oldmoney",
+          "desc": "/oldmoney — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Old money luxury aesthetic",
+          "desc_long": "Commande gratuite /oldmoney en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/polaroid",
+          "desc": "/polaroid — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Photo instantanee Polaroid",
+          "desc_long": "Commande gratuite /polaroid en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/producthero",
+          "desc": "/producthero — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Image hero produit",
+          "desc_long": "Commande gratuite /producthero en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/realityshift",
+          "desc": "/realityshift — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Blend impossible environments - reality shift",
+          "desc_long": "Commande gratuite /realityshift en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/remove-bg",
+          "desc": "/remove-bg — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Supprime le fond proprement",
+          "desc_long": "Commande gratuite /remove-bg en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/restore",
+          "desc": "/restore — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Restaure photo ancienne",
+          "desc_long": "Commande gratuite /restore en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/rimlight",
+          "desc": "/rimlight — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Lumiere de contour",
+          "desc_long": "Commande gratuite /rimlight en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/shallowdepth",
+          "desc": "/shallowdepth — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Blur background to highlight the subject - shallow depth",
+          "desc_long": "Commande gratuite /shallowdepth en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/sketch",
+          "desc": "/sketch — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Pencil sketch drawing",
+          "desc_long": "Commande gratuite /sketch en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/softlight",
+          "desc": "/softlight — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Eclairage doux flatteur",
+          "desc_long": "Commande gratuite /softlight en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/space",
+          "desc": "/space — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Space background - galaxy",
+          "desc_long": "Commande gratuite /space en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/streetstyle",
+          "desc": "/streetstyle — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Esthetique street style",
+          "desc_long": "Commande gratuite /streetstyle en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/topdown",
+          "desc": "/topdown — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Direct top-down camera angle - bird top down",
+          "desc_long": "Commande gratuite /topdown en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/vintage",
+          "desc": "/vintage — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Apparence vintage",
+          "desc_long": "Commande gratuite /vintage en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/watercolor",
+          "desc": "/watercolor — Image et photographie IA — Version gratuite 400, optimisée en français.",
+          "desc_short": "Soft watercolor painting",
+          "desc_long": "Commande gratuite /watercolor en français. Image et photographie IA. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    },
+    {
+      "id": "packaging",
+      "label": "Packaging & Branding",
+      "icon": "📦",
+      "color": "#06b6d4",
+      "meta": "GEMINI_FLOW",
+      "commands": [
+        {
+          "cmd": "/ICEBURST",
+          "desc": "/ICEBURST — Packaging et design produit — Version gratuite 400, optimisée en français.",
+          "desc_short": "Produit dans la glace",
+          "desc_long": "Commande gratuite /ICEBURST en français. Packaging et design produit. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/ZIPREVEAL",
+          "desc": "/ZIPREVEAL — Packaging et design produit — Version gratuite 400, optimisée en français.",
+          "desc_short": "Fermeture eclair revelant produit",
+          "desc_long": "Commande gratuite /ZIPREVEAL en français. Packaging et design produit. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/bronze",
+          "desc": "/bronze — Packaging et design produit — Version gratuite 400, optimisée en français.",
+          "desc_short": "Bronze - Bronze effect / prompt",
+          "desc_long": "Commande gratuite /bronze en français. Packaging et design produit. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/cartoon3d",
+          "desc": "/cartoon3d — Packaging et design produit — Version gratuite 400, optimisée en français.",
+          "desc_short": "Cartoon3D - Cartoon3D effect / prompt",
+          "desc_long": "Commande gratuite /cartoon3d en français. Packaging et design produit. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        },
+        {
+          "cmd": "/productswap",
+          "desc": "/productswap — Packaging et design produit — Version gratuite 400, optimisée en français.",
+          "desc_short": "Productswap - Productswap effect / prompt",
+          "desc_long": "Commande gratuite /productswap en français. Packaging et design produit. Fait partie de FREE 400, aperçu de PRO 21793 à 5500 DA."
+        }
+      ]
+    }
+  ]
+}
